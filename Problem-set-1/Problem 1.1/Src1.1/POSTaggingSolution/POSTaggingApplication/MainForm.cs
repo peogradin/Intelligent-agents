@@ -22,6 +22,8 @@ namespace POSTaggingApplication
         private POSDataSet testDataSet = null;
         private List<TokenData> vocabulary = null;
 
+        private Dictionary<string, string> tagMapping = new Dictionary<string, string>();
+
         public MainForm()
         {
             InitializeComponent();
@@ -161,11 +163,15 @@ namespace POSTaggingApplication
                 openFileDialog.Filter = TEXT_FILE_FILTER;
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
+                    tagMapping.Clear();
                     StreamReader fileReader = new StreamReader(openFileDialog.FileName);    
                     while (!fileReader.EndOfStream)
                     {
                         string line = fileReader.ReadLine();
                         // Process data here ...
+                        List<string> lineSplit = line.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+
+
                     }
                 }
             }
