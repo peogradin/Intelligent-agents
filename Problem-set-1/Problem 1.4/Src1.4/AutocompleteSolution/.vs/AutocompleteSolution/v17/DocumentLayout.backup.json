@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Data\\Chalmers work\\Teaching\\Intelligent agents, 2025\\Src\\Assignment1\\Src1.4\\AutocompleteSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A73CD70F-0576-4FAD-886C-89B97AD4C558}|AutocompleteApplication\\AutocompleteApplication.csproj|C:\\Data\\Chalmers work\\Teaching\\Intelligent agents, 2025\\Src\\Assignment1\\Src1.4\\AutocompleteSolution\\autocompleteapplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A73CD70F-0576-4FAD-886C-89B97AD4C558}|AutocompleteApplication\\AutocompleteApplication.csproj|solutionrelative:autocompleteapplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73CD70F-0576-4FAD-886C-89B97AD4C558}|AutocompleteApplication\\AutocompleteApplication.csproj|c:\\data\\chalmers work\\teaching\\intelligent agents, 2025\\src\\assignment1\\src1.4\\autocompletesolution\\autocompleteapplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73CD70F-0576-4FAD-886C-89B97AD4C558}|AutocompleteApplication\\AutocompleteApplication.csproj|solutionrelative:autocompleteapplication\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Data\\Chalmers work\\Teaching\\Intelligent agents, 2025\\Src\\Assignment1\\Src1.4\\AutocompleteSolution\\AutocompleteApplication\\MainForm.cs",
+              "RelativeDocumentMoniker": "AutocompleteApplication\\MainForm.cs",
+              "ToolTip": "C:\\Data\\Chalmers work\\Teaching\\Intelligent agents, 2025\\Src\\Assignment1\\Src1.4\\AutocompleteSolution\\AutocompleteApplication\\MainForm.cs",
+              "RelativeToolTip": "AutocompleteApplication\\MainForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T06:38:27.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Data\\Chalmers work\\Teaching\\Intelligent agents, 2025\\Src\\Assignment1\\Src1.4\\AutocompleteSolution\\AutocompleteApplication\\MainForm.cs",
+              "RelativeDocumentMoniker": "AutocompleteApplication\\MainForm.cs",
+              "ToolTip": "C:\\Data\\Chalmers work\\Teaching\\Intelligent agents, 2025\\Src\\Assignment1\\Src1.4\\AutocompleteSolution\\AutocompleteApplication\\MainForm.cs [Design]",
+              "RelativeToolTip": "AutocompleteApplication\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T04:53:39.169Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
