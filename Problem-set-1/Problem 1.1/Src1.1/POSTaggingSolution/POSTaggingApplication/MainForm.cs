@@ -169,10 +169,31 @@ namespace POSTaggingApplication
                     {
                         string line = fileReader.ReadLine();
                         // Process data here ...
-                        List<string> lineSplit = line.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                        List<string> lineSplitList = line.Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                        
+                        foreach (string lineSplit in lineSplitList)
+                        {
+                            List<string> tagPair = lineSplit.Split(new char[] { '\t' }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
+
+                            if (tagPair.Count == 2)
+                            {
+                                string brownTag = tagPair[0].Trim();
+                                string universalTag = tagPair[1].Trim();
+
+                                if (!tagMapping.ContainsKey(brownTag))
+                                {
+                                    tagMapping[brownTag] = universalTag;
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Skipping malformed line: " + lineSplit); //Debug
+                            }
+                        }
 
                     }
+                    resultsListBox.Items.Add("Loaded tag conversion data with " + tagMapping.Count + " Brown to Universal tag pairs.");
                 }
             }
 
@@ -201,6 +222,8 @@ namespace POSTaggingApplication
             // NOTE: (Only) in this problem (for simplicity) the vocabulary is a simple List<TokenData> rather
             // than an instance of the Vocabulary class (which defines a Dictionary<string, Token>)
             vocabulary = GenerateVocabulary(completeDataSet);
+
+
 
             // Keep this line: It will activate the split button.
             splitDataSetButton.Enabled = true;
