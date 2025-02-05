@@ -218,6 +218,14 @@ namespace POSTaggingApplication
             // Method call: 
             // completeDataSet.ConvertPOSTags(... <suitable input, namely the tag conversion data> ...); // this you have to write ...
 
+            completeDataSet.ConvertPOSTags(tagMapping);
+            if (completeDataSet.SentenceList.Count > 0)
+            {
+                Sentence firstSentence = completeDataSet.SentenceList[0];
+                string sentenceString = string.Join(" ", firstSentence.TokenDataList.Select(t => t.Token.Spelling + "_" + t.Token.POSTag));
+                Console.WriteLine("First sentence: " + sentenceString);
+            } // Debug
+
             // Next, build the vocabulary, using the 12 universal tags (this method you get for free! :) )
             // NOTE: (Only) in this problem (for simplicity) the vocabulary is a simple List<TokenData> rather
             // than an instance of the Vocabulary class (which defines a Dictionary<string, Token>)

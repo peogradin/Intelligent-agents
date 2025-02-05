@@ -20,5 +20,23 @@ namespace NLP.POS
             get { return sentenceList; }
             set { sentenceList = value; }
         }
+        public void ConvertPOSTags (Dictionary<string, string> tagMapping)
+        {
+            foreach (Sentence sentence in SentenceList)
+            {
+                foreach (TokenData tokenData in sentence.TokenDataList)
+                {
+                    string brownTag = tokenData.Token.POSTag;
+                    if (tagMapping.ContainsKey(brownTag))
+                    {
+                        tokenData.Token.POSTag = tagMapping[brownTag];
+                    }
+                    else
+                    {
+                        tokenData.Token.POSTag = "X";
+                    }
+                }
+            }
+        }
     }
 }
