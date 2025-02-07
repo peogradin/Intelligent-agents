@@ -24,6 +24,7 @@ namespace POSTaggingApplication
 
         private Dictionary<string, string> tagMapping = new Dictionary<string, string>();
 
+
         public MainForm()
         {
             InitializeComponent();
@@ -219,12 +220,6 @@ namespace POSTaggingApplication
             // completeDataSet.ConvertPOSTags(... <suitable input, namely the tag conversion data> ...); // this you have to write ...
 
             completeDataSet.ConvertPOSTags(tagMapping);
-            if (completeDataSet.SentenceList.Count > 0)
-            {
-                Sentence firstSentence = completeDataSet.SentenceList[0];
-                string sentenceString = string.Join(" ", firstSentence.TokenDataList.Select(t => t.Token.Spelling + "_" + t.Token.POSTag));
-                Console.WriteLine("First sentence: " + sentenceString);
-            } // Debug
 
             // Next, build the vocabulary, using the 12 universal tags (this method you get for free! :) )
             // NOTE: (Only) in this problem (for simplicity) the vocabulary is a simple List<TokenData> rather
@@ -261,6 +256,10 @@ namespace POSTaggingApplication
                 // to define a method in the POSDataSet class. You can read about static
                 // methods on MSDN or StackOverflow, for example
 
+                (trainingDataSet, testDataSet) = POSDataSet.Split(completeDataSet, splitFraction);
+                resultsListBox.Items.Add("Dataset split with " + trainingDataSet.SentenceList.Count + " training sentences, " +
+                    testDataSet.SentenceList.Count + " test sentences.");
+
                 // Keep these lines: It will activate the statistics generation button and the unigram tagger generation button,
                 // once the data set has been split.
                 generateStatisticsButton.Enabled = true;
@@ -290,6 +289,28 @@ namespace POSTaggingApplication
             // resultListBox.Items.Add(" ");
             // where appropriate (e.g., between different
             // subtasks, to make the output more readable).
+
+            var tagCounts = trainingDataSet.CountPOSTags();
+
+            resultsListBox.Items.Add("Tag frequency statistics:");
+            resultsListBox.Items.Add("# Tags\t Count\t %");
+
+            foreach ( var kvp in tagCounts )
+            {
+                resultsListBox.Items.Add($"{kvp.Key}:\t {kvp.Value.Count}\t {(kvp.Value.Fraction*100):F2}%");
+            }
+
+            resultsListBox.Items.Add(" ");
+
+            var tagsToWordDistribution = trainingDataSet.CountTagsToWordDistribution();
+
+            resultsListBox.Items.Add("Distribution of number of tags per word: ");
+            resultsListBox.Items.Add("# Tags\t Count\t %");
+
+            foreach (var kvp in tagsToWordDistribution)
+            {
+                resultsListBox.Items.Add($"{kvp.Key}\t {kvp.Value.Count}\t {(kvp.Value.Fraction * 100):F2}%");
+            }
         }
 
         private void generateUnigramTaggerButton_Click(object sender, EventArgs e)
