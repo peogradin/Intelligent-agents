@@ -329,6 +329,7 @@ namespace POSTaggingApplication
             // (say) the first word or the last word of a sentence, but not for the
             // unigram tagger, so it is easy to write the Tag() method - it need not
             // take into account the position of the word in the sentence.
+            resultsListBox.Items.Clear();
 
             unigramTagger = new UnigramTagger(trainingDataSet);
             resultsListBox.Items.Add("Unigram tagger has been generated.");
