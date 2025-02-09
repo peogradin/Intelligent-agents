@@ -23,7 +23,7 @@ namespace POSTaggingApplication
         private List<TokenData> vocabulary = null;
 
         private Dictionary<string, string> tagMapping = new Dictionary<string, string>();
-
+        private UnigramTagger unigramTagger;
 
         public MainForm()
         {
@@ -330,6 +330,9 @@ namespace POSTaggingApplication
             // unigram tagger, so it is easy to write the Tag() method - it need not
             // take into account the position of the word in the sentence.
 
+            unigramTagger = new UnigramTagger(trainingDataSet);
+            resultsListBox.Items.Add("Unigram tagger has been generated.");
+
             // Keep this line: It will activate the evaluation button for the unigram tagger
             runUnigramTaggerButton.Enabled = true;
         }
@@ -347,6 +350,42 @@ namespace POSTaggingApplication
             // unigram tagger. Thus, when you run the unigram tagger the "sentence"
             // that goes into the Tag() method can simply be the entire list of
             // tokens in the test set.
+
+            int correctTags = 0;
+            int totalTags = 0;
+
+            foreach (Sentence sentence in testDataSet.SentenceList)
+            {
+                List<string> predictedTags = unigramTagger.Tag(sentence);
+
+                for (int i = 0;  i < predictedTags.Count; i++)
+                {
+                    string predictedTag = predictedTags[i];
+                    string actualTag = sentence.TokenDataList[i].Token.POSTag;
+
+                    if (predictedTag == "UNKNOWN")
+                    {
+                        continue; //Word is unknown
+                    }
+
+                    if (predictedTag == actualTag)
+                    {
+                        correctTags++;
+                    }
+
+                    totalTags++;
+
+                }
+            }
+
+            double accuracy = (double) correctTags / totalTags;
+
+            resultsListBox.Items.Add("--- Unigram Tagging Results ---");
+            resultsListBox.Items.Add("Number of Correctly Tagged Words: " + correctTags);
+            resultsListBox.Items.Add("Total Number of Tags: " + totalTags);
+            resultsListBox.Items.Add("Accuracy: " +  accuracy);
+            
+
         }
     }
 }
