@@ -291,6 +291,7 @@ namespace POSTaggingApplication
             // subtasks, to make the output more readable).
 
             var tagCounts = trainingDataSet.CountPOSTags();
+            int totalTags = tagCounts.Values.Sum(kvp => kvp.Count);
 
             resultsListBox.Items.Add("Tag frequency statistics:");
             resultsListBox.Items.Add("# Tags\t Count\t %");
@@ -300,6 +301,8 @@ namespace POSTaggingApplication
                 resultsListBox.Items.Add($"{kvp.Key}:\t {kvp.Value.Count}\t {(kvp.Value.Fraction*100):F2}%");
             }
 
+            resultsListBox.Items.Add(" ");
+            resultsListBox.Items.Add("Total number of tags: " + totalTags);
             resultsListBox.Items.Add(" ");
 
             var tagsToWordDistribution = trainingDataSet.CountTagsToWordDistribution();
@@ -311,6 +314,12 @@ namespace POSTaggingApplication
             {
                 resultsListBox.Items.Add($"{kvp.Key}\t {kvp.Value.Count}\t {(kvp.Value.Fraction * 100):F2}%");
             }
+
+            int totalWords = tagsToWordDistribution.Values.Sum(kvp => kvp.Count);
+            resultsListBox.Items.Add(" ");
+            resultsListBox.Items.Add("Total number of unique words: " + totalWords);
+            resultsListBox.Items.Add(" ");
+
         }
 
         private void generateUnigramTaggerButton_Click(object sender, EventArgs e)
@@ -364,10 +373,6 @@ namespace POSTaggingApplication
                     string predictedTag = predictedTags[i];
                     string actualTag = sentence.TokenDataList[i].Token.POSTag;
 
-                    if (predictedTag == "UNKNOWN")
-                    {
-                        continue; //Word is unknown
-                    }
 
                     if (predictedTag == actualTag)
                     {
