@@ -18,7 +18,7 @@ namespace NLP.TextClassification
 
         private PerceptronClassifier classifier;
 
-        public event Action<int, double, double> EpochCompleted;
+        public event Action<int, double, double, double> EpochCompleted;
 
         public event Action<string> ProgressUpdated;
 
@@ -34,9 +34,9 @@ namespace NLP.TextClassification
             this.stopRequest = false;
         }
 
-        private void ReportProgress(string message)
+        public string Epoch()
         {
-            ProgressUpdated?.Invoke(message);
+            return epoch.ToString();
         }
 
         public void Train()
@@ -80,6 +80,7 @@ namespace NLP.TextClassification
                         }
                     }
                 }
+                //classifier.Bias += learningRate * error;
             }
 
             double trainingAccuracy = evaluator.Evaluate(trainingSet);
@@ -91,7 +92,7 @@ namespace NLP.TextClassification
                 classifier.SetBest();
             }
 
-            EpochCompleted?.Invoke(epoch, trainingAccuracy, validationAccuracy);
+            EpochCompleted?.Invoke(epoch, trainingAccuracy, validationAccuracy, bestValidationAccuracy);
 
         }
     }

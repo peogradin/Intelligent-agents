@@ -125,6 +125,7 @@ namespace PerceptronClassifierApplication
             // TextClassificationDataItem and generate the TokenList
             // (also placed in the TextClassificationDataItem).
 
+            progressListBox.Items.Clear();
             foreach (TextClassificationDataItem item in trainingSet.ItemList)
             {
                 item.TokenList = tokenizer.Tokenize(item.Text);
@@ -176,20 +177,23 @@ namespace PerceptronClassifierApplication
             classifier.Initialize(vocabulary);
 
             perceptronOptimizer = new PerceptronOptimizer(classifier, trainingSet, validationSet);
-            perceptronOptimizer.EpochCompleted += (epoch, trainingAccuracy, validationAccuracy) =>
+            perceptronOptimizer.EpochCompleted += (epoch, trainingAccuracy, validationAccuracy, bestValidationAccuracy) =>
             {
-                ShowProgressSafe($"Epoch {epoch}: Training accuracy = {trainingAccuracy:F4}, Validation accuracy = {validationAccuracy:F4}", clearBefore: true);
+                ShowProgressSafe($"Epoch {epoch}: ", clearBefore: true);
+                ShowProgressSafe($"Training accuracy = {trainingAccuracy:F4},\t Validation accuracy: {validationAccuracy:F4},\t Best validation accuracy: {bestValidationAccuracy:F4}");
             };
 
 
-            ShowProgressSafe("Initialized the perceptron classifier and optimizer.");
+            ShowProgressSafe("Initialized the perceptron classifier and optimizer.", clearBefore: true);
 
             startOptimizerButton.Enabled = true;
+            initializeOptimizerButton.Enabled = false;
         }
 
         private void startOptimizerButton_Click(object sender, EventArgs e)
         {
             startOptimizerButton.Enabled = false;
+            initializeOptimizerButton.Enabled = false;
 
             // Start the optimizer here.
 
@@ -231,15 +235,24 @@ namespace PerceptronClassifierApplication
                 if (optimizerThread != null && optimizerThread.IsAlive)
                 {
                     optimizerThread.Join();
+                    ShowProgressSafe("Stopped the optimizer.", clearBefore: true);
                 }
+                else
+                {
+                    ShowProgressSafe("The optimizer was already stopped.", clearBefore: true);
+                }
+
                 this.Invoke(new MethodInvoker(() =>
                 {
-                    ShowProgressSafe("Stopped the optimizer.");
                     classifier.LoadBest();
                     var evaluator = new PerceptronEvaluator(classifier);
+                    ShowProgressSafe("Evaluating the best classifier after " + perceptronOptimizer.Epoch() + " epochs.");
+                    double trainingAccuracy = evaluator.Evaluate(trainingSet);
+                    double validationAccuracy = evaluator.Evaluate(validationSet);
                     double testAccuracy = evaluator.Evaluate(testSet);
-                    ShowProgressSafe($"Test accuracy = {testAccuracy:F4}");
+                    ShowProgressSafe($"Test accuracy: {testAccuracy:F4},\t Validation accuracy: {validationAccuracy:F4},\t Training accuracy: {trainingAccuracy:F4}");
                     startOptimizerButton.Enabled = true;
+                    initializeOptimizerButton.Enabled = true; // To allow for re-initialization
                 }));
             });
 
@@ -265,6 +278,10 @@ namespace PerceptronClassifierApplication
             }
             else
             {
+                if (clearBefore)
+                {
+                    progressListBox.Items.Clear();
+                }
                 progressListBox.Items.Add(message);
             }
         }
