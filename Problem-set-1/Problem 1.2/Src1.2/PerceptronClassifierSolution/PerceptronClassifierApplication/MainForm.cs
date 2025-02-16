@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using NLP;
@@ -23,6 +24,9 @@ namespace PerceptronClassifierApplication
         private TextClassificationDataSet trainingSet = null;
         private TextClassificationDataSet validationSet = null;
         private TextClassificationDataSet testSet = null;
+
+        private Thread optimizerThread;
+        private PerceptronOptimizer perceptronOptimizer;
 
         public MainForm()
         {
@@ -94,6 +98,18 @@ namespace PerceptronClassifierApplication
             // You must generate an instance of the Vocabulary class,
             // which you must also implement (a skeleton is available
             // in the NLP library)
+
+            vocabulary = new Vocabulary();
+
+            foreach (TextClassificationDataItem item in dataSet.ItemList)
+            {
+                vocabulary.AddTokens(item.TokenList);
+            }
+
+            progressListBox.Items.Add("");
+            progressListBox.Items.Add("Generated vocabulary with " + vocabulary.GetTokens().Count + " unique tokens.");
+            progressListBox.Items.Add("");
+
         }
 
         private void tokenizeButton_Click(object sender, EventArgs e)
@@ -101,11 +117,21 @@ namespace PerceptronClassifierApplication
             // Write code here for tokenizing the text. That is,
             // implement the Tokenize() method in the Tokenizer class.
 
+            Tokenizer tokenizer = new Tokenizer();
+
             // First tokenize the training set:
 
             // Add code here... - should take the raw Text for each
             // TextClassificationDataItem and generate the TokenList
             // (also placed in the TextClassificationDataItem).
+
+            foreach (TextClassificationDataItem item in trainingSet.ItemList)
+            {
+                item.TokenList = tokenizer.Tokenize(item.Text);
+            }
+
+            int totalTokensTraining = trainingSet.ItemList.Sum(item => item.TokenList.Count);
+            progressListBox.Items.Add("Tokenized training set with " + totalTokensTraining + " tokens.");
 
             // Then build the vocabulary from the training set:
             GenerateVocabulary(trainingSet);
@@ -114,9 +140,24 @@ namespace PerceptronClassifierApplication
 
             // Add code here ..
 
+            foreach (TextClassificationDataItem item in validationSet.ItemList)
+            {
+                item.TokenList = tokenizer.Tokenize(item.Text);
+            }
+            int totalTokensValidation = validationSet.ItemList.Sum(item => item.TokenList.Count);
+            progressListBox.Items.Add("Tokenized validation set with " + totalTokensValidation + " tokens.");
+
             // Finally, tokenize the test set:
 
             // Add code here:
+
+            foreach (TextClassificationDataItem item in testSet.ItemList)
+            {
+                item.TokenList = tokenizer.Tokenize(item.Text);
+            }
+
+            int totalTokensTest = testSet.ItemList.Sum(item => item.TokenList.Count);
+            progressListBox.Items.Add("Tokenized test set with " + totalTokensTest + " tokens.");
 
             //
             initializeOptimizerButton.Enabled = true;
@@ -130,6 +171,18 @@ namespace PerceptronClassifierApplication
             // Moreover, as mentioned in the assignment text,
             // it might be a good idea to define an evaluator class (e.g. PerceptronEvaluator)
             // You should place both classes in the TextClassification folder in the NLP library.
+
+            classifier = new PerceptronClassifier();
+            classifier.Initialize(vocabulary);
+
+            perceptronOptimizer = new PerceptronOptimizer(classifier, trainingSet, validationSet);
+            perceptronOptimizer.EpochCompleted += (epoch, trainingAccuracy, validationAccuracy) =>
+            {
+                ShowProgressSafe($"Epoch {epoch}: Training accuracy = {trainingAccuracy:F4}, Validation accuracy = {validationAccuracy:F4}", clearBefore: true);
+            };
+
+
+            ShowProgressSafe("Initialized the perceptron classifier and optimizer.");
 
             startOptimizerButton.Enabled = true;
         }
@@ -147,6 +200,16 @@ namespace PerceptronClassifierApplication
             // the test set here.
 
             stopOptimizerButton.Enabled = true;
+
+            optimizerThread = new Thread(() =>
+            {
+                perceptronOptimizer.Train();
+            });
+
+            optimizerThread.Start();
+
+            ShowProgressSafe("Started the optimizer.");
+
         }
 
         private void stopOptimizerButton_Click(object sender, EventArgs e)
@@ -160,8 +223,50 @@ namespace PerceptronClassifierApplication
             // the *test* set, and print the accuracy to the screen (in a thread-safe
             // manner, and with proper (clear) formatting).
 
+            perceptronOptimizer.Stop();
+            ShowProgressSafe("Stopping the optimizer...");
+
+            Task.Run(() =>
+            {
+                if (optimizerThread != null && optimizerThread.IsAlive)
+                {
+                    optimizerThread.Join();
+                }
+                this.Invoke(new MethodInvoker(() =>
+                {
+                    ShowProgressSafe("Stopped the optimizer.");
+                    classifier.LoadBest();
+                    var evaluator = new PerceptronEvaluator(classifier);
+                    double testAccuracy = evaluator.Evaluate(testSet);
+                    ShowProgressSafe($"Test accuracy = {testAccuracy:F4}");
+                    startOptimizerButton.Enabled = true;
+                }));
+            });
+
             stopOptimizerButton.Enabled = true; // A bit ugly, should wait for the
             // optimizer to actually stop, but that's OK, it will stop quickly.
+
+        }
+
+        private void ShowProgressSafe(string message, bool clearBefore = false)
+        {
+            if (InvokeRequired)
+            {
+
+                Invoke(new MethodInvoker(() =>
+                {
+                    if (clearBefore)
+                    {
+                        progressListBox.Items.Clear();
+                    }
+                    progressListBox.Items.Add(message);
+                }));
+
+            }
+            else
+            {
+                progressListBox.Items.Add(message);
+            }
         }
     }
 }

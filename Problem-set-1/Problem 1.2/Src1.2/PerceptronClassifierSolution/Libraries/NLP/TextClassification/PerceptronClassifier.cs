@@ -11,6 +11,9 @@ namespace NLP.TextClassification
         private double bias;
         private Dictionary<string, double> weightDictionary; // The Key (string) should identify (the spelling of) the token
 
+        public double bestBias { get; private set; }
+        public Dictionary<string, double> bestWeightDictionary { get; private set; }
+
         public override void Initialize(Vocabulary vocabulary)
         {
             // Write this method, setting up the weight dictionary
@@ -20,6 +23,21 @@ namespace NLP.TextClassification
             // Initially, assign random weights in the range [-1,1].
             // To obtain random numbers (in [0,1[) use the Random class,
             // with a suitable (integer) random number seed.
+
+            Random random = new Random(42);
+            weightDictionary = new Dictionary<string, double>();
+            bestWeightDictionary = new Dictionary<string, double>();
+
+            foreach (Token token in vocabulary.GetTokens())
+            {
+                double weight = random.NextDouble() * 2 - 1;
+                weightDictionary[token.Spelling] = weight;
+                bestWeightDictionary[token.Spelling] = weight;
+            }
+
+            bias = 0.0;
+            bestBias = 0.0;
+
         }
 
         public override int Classify(List<Token> tokenList)
@@ -33,8 +51,19 @@ namespace NLP.TextClassification
             // Remove the line below - needed for compilation of this skeleton code,
             // since the method must return an integer.
             // The returned integer should be the class ID (in this case, either 0 or 1).
-            return 0; 
- 
+
+            double sum = bias;
+
+            foreach (Token token in tokenList)
+            {
+                if (weightDictionary.ContainsKey(token.Spelling))
+                {
+                    sum += weightDictionary[token.Spelling];
+                }
+            }
+
+            return sum >= 0 ? 1 : 0;
+
         }
 
         // This method generates a copied PerceptronClassifier, but the
@@ -65,5 +94,22 @@ namespace NLP.TextClassification
             get { return weightDictionary; }
             set { weightDictionary = value; }
         }
+
+        public void SetBest()
+        {
+            bestBias = bias;
+            bestWeightDictionary = new Dictionary<string, double>(weightDictionary);
+        }
+
+        public void LoadBest()
+        {
+            if (bestWeightDictionary != null && bestWeightDictionary.Count > 0)
+            {
+                bias = bestBias;
+                weightDictionary = new Dictionary<string, double>(bestWeightDictionary);
+            }
+            
+        }
+
     }
 }
