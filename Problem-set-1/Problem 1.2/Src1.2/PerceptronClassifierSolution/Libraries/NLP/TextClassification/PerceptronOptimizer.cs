@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace NLP.TextClassification
 {
@@ -107,7 +108,7 @@ namespace NLP.TextClassification
                 writer.WriteLine("Epoch,TrainingAccuracy,ValidationAccuracy");
                 for (int i = 0; i < trainingAccuracies.Count; i++)
                 {
-                    writer.WriteLine($"{i+1}, {trainingAccuracies[i]}, {validationAccuracies[i]}");
+                    writer.WriteLine($"{i+1}, {trainingAccuracies[i].ToString(CultureInfo.InvariantCulture)}, {validationAccuracies[i].ToString(CultureInfo.InvariantCulture)}");
                 }
             }
         }

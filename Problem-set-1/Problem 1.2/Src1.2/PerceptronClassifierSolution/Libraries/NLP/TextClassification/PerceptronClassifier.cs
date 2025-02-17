@@ -4,6 +4,7 @@ using System.Linq;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace NLP.TextClassification
 {
@@ -129,13 +130,13 @@ namespace NLP.TextClassification
                         writer.WriteLine("Top Words");
                         foreach (var (word, weight) in topWords)
                         {
-                            writer.WriteLine($"{word},{weight:F4}");
+                            writer.WriteLine($"{word},{weight.ToString(CultureInfo.InvariantCulture):F4}");
                         }
 
                         writer.WriteLine("\nBottom Words");
                         foreach (var (word, weight) in bottomWords)
                         {
-                            writer.WriteLine($"{word},{weight:F4}");
+                            writer.WriteLine($"{word},{weight.ToString(CultureInfo.InvariantCulture):F4}");
                         }
 
                     }

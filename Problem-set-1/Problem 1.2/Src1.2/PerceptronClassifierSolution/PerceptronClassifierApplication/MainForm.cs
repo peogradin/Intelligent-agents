@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using NLP;
 using NLP.TextClassification;
 using NLP.Tokenization;
+using System.Globalization;
 
 namespace PerceptronClassifierApplication
 {
@@ -27,7 +28,7 @@ namespace PerceptronClassifierApplication
 
         private Thread optimizerThread;
         private PerceptronOptimizer perceptronOptimizer;
-        private bool isSaveData = true;
+        private bool isSaveData = false;
 
         public MainForm()
         {
