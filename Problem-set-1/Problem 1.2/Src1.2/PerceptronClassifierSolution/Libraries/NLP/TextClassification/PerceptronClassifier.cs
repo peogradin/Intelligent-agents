@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,7 +25,7 @@ namespace NLP.TextClassification
             // To obtain random numbers (in [0,1[) use the Random class,
             // with a suitable (integer) random number seed.
 
-            Random random = new Random(42);
+            Random random = new Random(0);
             weightDictionary = new Dictionary<string, double>();
             bestWeightDictionary = new Dictionary<string, double>();
 
@@ -111,5 +112,81 @@ namespace NLP.TextClassification
             
         }
 
+        public (List<(string, double)>, List<(string, double)>) GetTopAndBottomWords(bool isSaveData, int amount = 10)
+        {
+            var sortedWeights = weightDictionary.OrderByDescending(kv => kv.Value).ToList();
+
+            var topWords = sortedWeights.Take(amount).Select(kv => (kv.Key, kv.Value)).ToList();
+            var bottomWords = sortedWeights.Skip(sortedWeights.Count - amount).Select(kv => (kv.Key, kv.Value)).ToList();
+
+            var filename = "TopAndBottomWords.csv";
+            if (isSaveData)
+            {
+                try
+                {
+                    using (StreamWriter writer = new StreamWriter(filename))
+                    {
+                        writer.WriteLine("Top Words");
+                        foreach (var (word, weight) in topWords)
+                        {
+                            writer.WriteLine($"{word},{weight:F4}");
+                        }
+
+                        writer.WriteLine("\nBottom Words");
+                        foreach (var (word, weight) in bottomWords)
+                        {
+                            writer.WriteLine($"{word},{weight:F4}");
+                        }
+
+                    }
+
+                    Console.WriteLine($"Top and bottom word data saved to file: {filename}");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine($"Error saving data to file: {e.Message}");
+                }
+            }
+
+            return (topWords, bottomWords);
+        }
+
+        public void SaveClassifierExamples(TextClassificationDataSet testSet, string filename, int amount = 5)
+        {
+            Random random = new Random(42);
+
+            var shuffledTestSet = testSet.ItemList.OrderBy(x => random.Next()).ToList();
+
+            List<string> correctExamples = new List<string>();
+            List<string> incorrectExamples = new List<string>();
+
+            foreach (var item in testSet.ItemList)
+            {
+                int predictedClass = Classify(item.TokenList);
+                string result = $"Text: \"{item.Text}\",\t Predicted class: {predictedClass},\t Actual class:{item.ClassLabel}";
+
+                if (predictedClass == item.ClassLabel)
+                {
+                    if (correctExamples.Count < amount)
+                        correctExamples.Add(result);
+                }
+                else
+                {
+                    if (incorrectExamples.Count < amount)
+                        incorrectExamples.Add(result);
+                }
+
+                if (correctExamples.Count >= amount && incorrectExamples.Count >= amount)
+                    break;
+
+            }
+            using (StreamWriter writer = new StreamWriter(filename))
+            {
+                foreach (var example in correctExamples)
+                    writer.WriteLine(example);
+                foreach (var example in incorrectExamples)
+                    writer.WriteLine(example);
+            }
+        }
     }
 }

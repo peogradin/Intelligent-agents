@@ -27,6 +27,7 @@ namespace PerceptronClassifierApplication
 
         private Thread optimizerThread;
         private PerceptronOptimizer perceptronOptimizer;
+        private bool isSaveData = true;
 
         public MainForm()
         {
@@ -251,8 +252,35 @@ namespace PerceptronClassifierApplication
                     double validationAccuracy = evaluator.Evaluate(validationSet);
                     double testAccuracy = evaluator.Evaluate(testSet);
                     ShowProgressSafe($"Test accuracy: {testAccuracy:F4},\t Validation accuracy: {validationAccuracy:F4},\t Training accuracy: {trainingAccuracy:F4}");
+
+                    var (topWords, bottomWords) = classifier.GetTopAndBottomWords(isSaveData, 10);
+
+                    int columnWidth = 15;
+                    ShowProgressSafe("");
+                    ShowProgressSafe("Top words");
+                    foreach (var (word, weight) in topWords)
+                    {
+                        ShowProgressSafe(word.PadRight(columnWidth) + weight.ToString("F4"));
+                    }
+                    ShowProgressSafe("");
+                    ShowProgressSafe("Bottom words");
+                    foreach (var (word, weight) in bottomWords)
+                    {
+                        ShowProgressSafe(word.PadRight(columnWidth) + weight.ToString("F4"));
+                    }
+                    ShowProgressSafe("");
+
+                    if (isSaveData)
+                    {
+                        perceptronOptimizer.SaveTrainingData("trainingData.csv");
+                        ShowProgressSafe("\nSaved training data to trainingData.csv.");
+                        classifier.SaveClassifierExamples(testSet, "ClassifierExamples.csv");
+                        ShowProgressSafe("Saved classifier examples to file.");
+                    }
+
                     startOptimizerButton.Enabled = true;
                     initializeOptimizerButton.Enabled = true; // To allow for re-initialization
+
                 }));
             });
 

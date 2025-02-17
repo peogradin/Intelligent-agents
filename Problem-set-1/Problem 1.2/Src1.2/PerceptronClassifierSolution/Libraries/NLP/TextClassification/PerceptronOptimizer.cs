@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,10 +18,10 @@ namespace NLP.TextClassification
         private bool stopRequest;
 
         private PerceptronClassifier classifier;
+        private List<double> trainingAccuracies = new List<double>();
+        private List<double> validationAccuracies = new List<double>();
 
         public event Action<int, double, double, double> EpochCompleted;
-
-        public event Action<string> ProgressUpdated;
 
         public PerceptronOptimizer(PerceptronClassifier classifier, TextClassificationDataSet trainingSet, TextClassificationDataSet validationSet)
         {
@@ -30,7 +31,7 @@ namespace NLP.TextClassification
             this.learningRate = 0.1;
             this.epoch = 0;
             this.bestValidationAccuracy = 0.0;
-            random = new Random(42);
+            random = new Random(0);
             this.stopRequest = false;
         }
 
@@ -86,6 +87,9 @@ namespace NLP.TextClassification
             double trainingAccuracy = evaluator.Evaluate(trainingSet);
             double validationAccuracy = evaluator.Evaluate(validationSet);
 
+            trainingAccuracies.Add(trainingAccuracy);
+            validationAccuracies.Add(validationAccuracy);
+
             if (validationAccuracy > bestValidationAccuracy)
             {
                 bestValidationAccuracy = validationAccuracy;
@@ -94,6 +98,18 @@ namespace NLP.TextClassification
 
             EpochCompleted?.Invoke(epoch, trainingAccuracy, validationAccuracy, bestValidationAccuracy);
 
+        }
+
+        public void SaveTrainingData(string filename)
+        {
+            using (StreamWriter writer = new StreamWriter(filename))
+            {
+                writer.WriteLine("Epoch,TrainingAccuracy,ValidationAccuracy");
+                for (int i = 0; i < trainingAccuracies.Count; i++)
+                {
+                    writer.WriteLine($"{i+1}, {trainingAccuracies[i]}, {validationAccuracies[i]}");
+                }
+            }
         }
     }
 }
