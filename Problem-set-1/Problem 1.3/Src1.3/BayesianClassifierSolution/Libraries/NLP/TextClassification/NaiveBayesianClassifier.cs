@@ -12,6 +12,9 @@ namespace NLP.TextClassification
         private double priorPositive;
         private double priorNegative;
         private const double epsilon = 1e-9;
+        private Dictionary<string, double> rawFreqPositive;
+        private Dictionary<string, double> rawFreqNegative;
+
 
         public override void Initialize(Vocabulary vocabulary)
         {
@@ -20,6 +23,9 @@ namespace NLP.TextClassification
             posteriorNegative = new Dictionary<string, double>();
             priorPositive = 0;
             priorNegative = 0;
+            rawFreqPositive = new Dictionary<string, double>();
+            rawFreqNegative = new Dictionary<string, double>();
+
         }
 
         public void Initialize(Vocabulary vocabulary, TextClassificationDataSet dataSet)
@@ -30,21 +36,24 @@ namespace NLP.TextClassification
 
         public override int Classify(List<Token> tokenList)
         {
-            double positiveLogLikelihood = Math.Log(Math.Max(priorPositive, epsilon));
-            double negativeLogLikelihood = Math.Log(Math.Max(priorNegative, epsilon));
+            double positiveLogLikelihood = Math.Log(priorPositive);
+            double negativeLogLikelihood = Math.Log(priorNegative);
 
             foreach (var token in tokenList)
             {
                 string word = token.Spelling.ToLower();
-                if (posteriorPositive.ContainsKey(word) && posteriorNegative.ContainsKey(word))
+                if (posteriorPositive.ContainsKey(word))
                 {
-
                     positiveLogLikelihood += Math.Log(Math.Max(posteriorPositive[word], epsilon));
+                }
+
+                if (posteriorNegative.ContainsKey(word))
+                {
                     negativeLogLikelihood += Math.Log(Math.Max(posteriorNegative[word], epsilon));
                 }
 
             }
-            return positiveLogLikelihood > negativeLogLikelihood ? 1 : 0;
+            return positiveLogLikelihood >= negativeLogLikelihood ? 1 : 0;
         }
 
         public string Evaluate(TextClassificationDataSet dataSet)
@@ -125,6 +134,9 @@ namespace NLP.TextClassification
             {
                 posteriorPositive[word.Key] = (double)(word.Value.Class1Count + 1) / (totalPositiveWords + vocabularySize);
                 posteriorNegative[word.Key] = (double)(word.Value.Class0Count + 1) / (totalNegativeWords + vocabularySize);
+
+                rawFreqPositive[word.Key] = (double)word.Value.Class1Count / totalPositiveWords;
+                rawFreqNegative[word.Key] = (double)word.Value.Class0Count / totalNegativeWords;
             }
 
         }
@@ -137,8 +149,8 @@ namespace NLP.TextClassification
                 return 0;
             }
 
-            double P_t_positive = posteriorPositive[word];
-            double P_t_negative = posteriorNegative[word];
+            double P_t_positive = rawFreqPositive[word];
+            double P_t_negative = rawFreqNegative[word];
             double P_positive = priorPositive;
             double P_negative = priorNegative;
 
@@ -156,8 +168,8 @@ namespace NLP.TextClassification
                 return 0;
             }
 
-            double P_t_positive = posteriorPositive[word];
-            double P_t_negative = posteriorNegative[word];
+            double P_t_positive = rawFreqPositive[word];
+            double P_t_negative = rawFreqNegative[word];
             double P_positive = priorPositive;
             double P_negative = priorNegative;
 
