@@ -42,7 +42,9 @@ namespace NLP.NGrams
 
         public NGram(string identifier)
         {
-            TokenList = new List<string>();
+            Identifier = identifier.Trim();
+            TokenList = Identifier.Split(' ').Where(t => !string.IsNullOrWhiteSpace(t)).ToList();
+            FrequencyPerMillionInstances = 0.0;
         }
     }
 }

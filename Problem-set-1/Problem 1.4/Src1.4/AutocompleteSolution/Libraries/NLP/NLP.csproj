@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoCompleter.cs" />
     <Compile Include="NGrams\NGram.cs" />
+    <Compile Include="NGrams\NGramManager.cs" />
     <Compile Include="POS\POSDataSet.cs" />
     <Compile Include="POS\Taggers\POSTagger.cs" />
     <Compile Include="Sentence.cs" />

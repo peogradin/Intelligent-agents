@@ -39,17 +39,17 @@ namespace NLP.Tokenization
 
                 if (token.Contains("."))
                 {
-                    if (abbreviations.Contains(token)) // Check for abbreviations
+                    if (abbreviations.Contains(token))
                     {
                         finalTokens.Add(token);
                     }
 
-                    else if (Regex.IsMatch(token, @"^\d+(\.\d+)+$")) // Check for numbers
+                    else if (Regex.IsMatch(token, @"^\d+(\.\d+)+$"))
                     {
                         finalTokens.Add(token);
                     }
 
-                    else // Split tokens by periods
+                    else
                     {
                         string[] splitTokens = Regex.Split(token, @"(?=\.)|(?<=\.)");
                         foreach (string splitToken in splitTokens)
