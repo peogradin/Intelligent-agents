@@ -573,3 +573,17 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+data/train-parts/KDE4-v2.en-.en.gz
+data/train-parts/QED-v2.0a.en-.en.gz
+Problem-set-1/Problem 1.4/Src1.4/Data/cleaned_movie_dialogues.txt
+Problem-set-1/Problem 1.4/Src1.4/Data/gutenberg_books/annaKarenina.txt
+Problem-set-1/Problem 1.4/Src1.4/Data/gutenberg_books/lesMiserables.txt
+Problem-set-1/Problem 1.4/Src1.4/Data/gutenberg_books/mobyDick.txt
+Problem-set-1/Problem 1.4/Src1.4/Data/gutenberg_books/roderickRandom.txt
+Problem-set-1/Problem 1.4/Src1.4/Data/gutenberg_books/shakespeare.txt
+Problem-set-1/Problem 1.4/Src1.4/Data/gutenberg_books/tomJones.txt
+Problem-set-1/Problem 1.4/Src1.4/Data/gutenberg_books/wutheringHeights.txt
+Problem-set-1/Problem 1.4/Src1.4/Data/movie_conversations.txt
+Problem-set-1/Problem 1.4/Src1.4/Data/movie_lines.txt
+Problem-set-1/Problem 1.4/Src1.4/Data/gutenberg_books/prideAndPrejudice.txt
+data/train-parts/categories.json
