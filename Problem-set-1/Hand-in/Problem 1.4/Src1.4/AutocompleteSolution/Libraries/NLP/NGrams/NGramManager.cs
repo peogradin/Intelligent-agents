@@ -12,6 +12,8 @@ namespace NLP.NGrams
         private Dictionary<string, List<NGram>> bigramDictionary;
         private Dictionary<string, List<NGram>> trigramDictionary;
 
+        
+
         public event Action<int> OnProgressUpdate;
 
         public NGramManager()
@@ -104,6 +106,14 @@ namespace NLP.NGrams
         public Dictionary<string, List<NGram>> GetBigramDictionary() => bigramDictionary;
         public Dictionary<string, List<NGram>> GetTrigramDictionary() => trigramDictionary;
 
+        public (int totalUnigrams, int totalBigrams, int totalTrigrams) GetTotalNGramCounts()
+        {
+            int totalUnigrams = unigramDictionary.Values.Sum(list => list.Count);
+            int totalBigrams = bigramDictionary.Values.Sum(list => list.Count);
+            int totalTrigrams = trigramDictionary.Values.Sum(list => list.Count);
+
+            return (totalUnigrams, totalBigrams, totalTrigrams);
+        }
 
     }
 }

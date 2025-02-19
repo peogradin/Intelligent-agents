@@ -214,8 +214,16 @@ namespace AutocompleteApplication
             ShowProgressSafe("Top 5 trigrams:");
             foreach (var trigram in topTrigrams)
             {
-                ShowProgressSafe($"{trigram.Identifier} ({trigram.FrequencyPerMillionInstances:F2} per million)");
+                ShowProgressSafe($"{trigram.Identifier}\t ({trigram.FrequencyPerMillionInstances:F2} per million)");
             }
+
+            ShowProgressSafe("");
+            ShowProgressSafe("Amount of n-grams:");
+            var (totalUnigrams, totalBigrams, totalTrigrams) = nGramManager.GetTotalNGramCounts();
+            ShowProgressSafe($"Total Unigrams: {totalUnigrams}");
+            ShowProgressSafe($"Total Bigrams: {totalBigrams}");
+            ShowProgressSafe($"Total Trigrams: {totalTrigrams}");
+
         }
 
 
