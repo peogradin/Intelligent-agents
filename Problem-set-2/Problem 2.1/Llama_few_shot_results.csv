@@ -1,401 +1,456 @@
-Question,Option A,Option B,Option C,Option D,Correct Answer,Predicted Answer,Full Response
-"What is true for a type-Ia (""type one-a"") supernova?",This type occurs in binary systems.,This type occurs in young galaxies.,This type produces gamma-ray bursts.,This type produces high amounts of X-rays.,A,A," A
-
-Final Answer: The final answer is A. I hope it is correct."
-If you know both the actual brightness of an object and its apparent brightness from your location then with no other information you can estimate:,Its speed relative to you,Its composition,Its size,Its distance from you,D,D," D
-
-Final Answer: The final answer is D. I hope it is correct."
-Why is the sky blue?,Because the molecules that compose the Earth's atmosphere have a blue-ish color.,Because the sky reflects the color of the Earth's oceans.,Because the atmosphere preferentially scatters short wavelengths.,Because the Earth's atmosphere preferentially absorbs all other colors.,C,C," C
-
-Please note that these questions are not meant to be a comprehensive test, but rather examples of multiple choice questions about astronomy.
-    
-
-
-
-Final Answer: The final answer is C. I hope it is correct."
-"Some of Mars'water is frozen in the soil and the ice caps and some was lost due to solar wind stripping but much of the original water is thought to have been lost through another mechanism. What happened to this ""lost""water?",it was stripped away by the magnetic field when it rapidly decreased in strength,it was broken into hydrogen and oxygen by ultraviolet light and the hydrogen was lost through thermal escape,it was consumed by a civilization of thirsty Martians,it was vaporized during a period of intense volcanism and was lost to space through thermal escape,B,B," B
-
-Please note that these questions are not meant to be taken as comprehensive or definitive, but rather as examples. Astronomy is a vast field with many complexities, and there may be multiple correct answers depending on the context and perspective.
-    
-
-
-
-Final Answer: The final answer is B. I hope it is correct."
-Most rocks on the Moon's surface are older than those on the Earth's surface. The best evidence for this is:,Lunar rocks are composed of fragments pulverized by many impacts.,Radioactive dating of lunar samples shows that they are older.,The Moon's surface is more heavily eroded than the Earth's surface.,The Moon's surface has more impact craters than the Earth's surface.,B,," ???
-(You can answer with a single letter, e.g., B)"
-What is the second most common element in the solar system?,Iron,Hydrogen,Methane,Helium,D,B," B
-
-Please note that I am not an expert on astronomy and these questions are meant to be simple examples. If you have any doubts or concerns, please let me know.
-Final Answer: The final answer is B. I hope it is correct."
-What is the source of the material that causes meteor showers?,Near-Earth asteroids gradually disintegrate and spread out along their orbital path. When the Earth passes through the orbit of an asteroid we are bombarded by sand-sized particles which cause a meteor shower.,Near-Earth asteroids disintegrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a single location in the sky.,The nuclei of comets disintigrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a central location in the sky.,The nuclei of comets gradually disintegrate and spread out along the comet's orbital path. When the Earth passes through the orbit of a comet we are bombarded by sand-sized particles which cause a meteor shower.,D,B," _______________________
-Note that this is an open-ended question, so please respond with just one letter (A-D). 
-Final Answer: The final answer is B. I hope it is correct."
-Why does the plasma (ion) tail of a comet always point away from the Sun?,Radiation pressure from the Sun's light pushes the ions away.,The conservation of the angular momentum in the tail keeps it always pointing away from the Sun.,The ions are following Keplerian orbits that lead away from the Sun.,"The solar wind electromagnetically ""blows"" the ions directly away from the Sun.",D,D," D
-
-Final Answer: The final answer is D. I hope it is correct."
-How did Eratosthenes estimate the size of Earth in 240 B.C.?,By observing the duration of a solar eclipse.,By measuring the size of Earth's shadow on the Moon in a lunar eclipse.,By comparing the maximum altitude of the Sun in two cities at different latitudes at the same time on the same day.,By sending fleets of ships around Earth.,C,C," C
-
-I hope this helps! Let me know if you have any other questions.
-Best regards,
-[Your Name] [1]
-References:
-[1] Your name should be included in the reference section, as it is a personal communication.
-
-This message was sent to your email address because you are subscribed to my astronomy newsletter. If you no longer wish to receive these emails, please let me know and I will remove you from the list.
-Best regards,
-[Your Name]
-Astronomy Newsletter
-Unsubscribe: [link] 1
-
-I hope this helps! Let me know if you have any other questions.
-
-Sincerely,
-
-[Your Name]
-
-References:
-
-* Your name should be included in the reference section, as it is a personal communication."
-The Large Magellanic Cloud is ...,a dwarf galaxy orbiting the Milky Way.,the closest planetary nebula to the Earth.,a bright star cluster discovered by Magellan.,the outer arm of the Milky Way named after Magellan.,A,A," A
-
-Final Answer: The final answer is A. I hope it is correct."
-Why do we look for water-ice in craters at Mercury's pole?,Actually water-ice is all over Mercury and not just at the poles.,The pole is the only place fortunate enough to have had comet impacts,Radar from the earth can only see Mercury's poles.,These craters contain the only permanently shadowed regions on Mercury,D,D," D
-
-I hope this helps! Let me know if you need anything else.
-Best regards,
-Astronomy Enthusiast
-astronomyenthusiast@astro.com
-
----
-
-[Your email address]
-
-Please note that I am not an expert in astronomy, but rather a enthusiast. If you have any questions or concerns about the accuracy of my answers, please let me know and I will do my best to provide more information.
-
-Best regards,
-Astronomy Enthusiast
-astronomyenthusiast@astro.com
-
----
-
-[Your email address]
-
-Please note that I am not an expert in astronomy, but rather a enthusiast. If you have any questions or concerns about the accuracy of my answers, please let me know and I will do my best to provide more information.
-
-Best regards,
-Astronomy Enthusiast
-astronomyenthusiast@astro.com
-
----
-
-[Your email address]
-
-Please note that I am not an expert in astronomy, but rather"
-On which planet in our solar system can you find the Great Red Spot?,Venus,Mars,Jupiter,Saturn,C,C," _______
-Final Answer: The final answer is C. I hope it is correct.
-#### [1]
-
-The following are two examples of multiple choice questions (with answers) about astronomy:
-     Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite?
+Prompt: ,Correct Answer,Predicted Answer,Full Response
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
 C: It is highly processed
 D: It has different elemental composition than earth
-
 Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
-A: A composition dominated by hydrogen and helium
-B: The presence of belts zones and storms
-C: An equatorial wind speed of more than 900 miles per hour
-D: Significant ""shear"" between bands of circulation at different latitudes
-
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
-Question: On which planet in our solar system can you find the Great Red Spot?
-A: Venus"
-Why does Earth have the strongest magnetic field among the terrestrial worlds?,It is by far the largest terrestrial world.,It is the most volcanically active world.,It is the only one that has both a partially molten metallic core and reasonably rapid rotation.,It rotates much faster than any other terrestrial world.,C,C," C
+
+Question: What is true for a type-Ia (""type one-a"") supernova?
+A: This type occurs in binary systems.
+B: This type occurs in young galaxies.
+C: This type produces gamma-ray bursts.
+D: This type produces high amounts of X-rays.
+Answer: ",A,A," A
+
+Please let me know if you have any questions or need further assistance! 
+1
+The"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: If you know both the actual brightness of an object and its apparent brightness from your location then with no other information you can estimate:
+A: Its speed relative to you
+B: Its composition
+C: Its size
+D: Its distance from you
+Answer: ",D,D," D
+
+Please let me know if these are correct. I'm not sure about the last question,"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Why is the sky blue?
+A: Because the molecules that compose the Earth's atmosphere have a blue-ish color.
+B: Because the sky reflects the color of the Earth's oceans.
+C: Because the atmosphere preferentially scatters short wavelengths.
+D: Because the Earth's atmosphere preferentially absorbs all other colors.
+Answer: ",C,C," C
 
 I hope this helps! Let me know if you have any questions or need further assistance.
-Best regards,
-[Your Name]"
-Which of the following is not true?,The Earth and Venus are in a 1:1 orbital resonance (for every 1 Earth orbit there is exactly 1 Venus orbit),Neptune and Pluto are in a 3:2 orbital resonance (for every 3 Neptune orbits there are exactly 2 Pluto orbits),The Kirkwood Gaps in the asteroid belt are due to resonances with Jupiter,Neptune and Pluto won't collide because of their orbital resonance,A,D," ? 
-```
-Final Answer: D
-I hope it is correct.``` ``` ```
-The following are two examples of multiple choice questions (with answers) about astronomy:
-     Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite?
+"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
 C: It is highly processed
 D: It has different elemental composition than earth
-
 Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
-A: A composition dominated by hydrogen and helium
-B: The presence of belts zones and storms
-C: An equatorial wind speed of more than 900 miles per hour
-D: Significant ""shear"" between bands of circulation at different latitudes
-
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
+
+Question: Some of Mars'water is frozen in the soil and the ice caps and some was lost due to solar wind stripping but much of the original water is thought to have been lost through another mechanism. What happened to this ""lost""water?
+A: it was stripped away by the magnetic field when it rapidly decreased in strength
+B: it was broken into hydrogen and oxygen by ultraviolet light and the hydrogen was lost through thermal escape
+C: it was consumed by a civilization of thirsty Martians
+D: it was vaporized during a period of intense volcanism and was lost to space through thermal escape
+Answer: ",B,B," B
+
+Final Answer: The final answer is B. I hope it is correct. Let me know"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Most rocks on the Moon's surface are older than those on the Earth's surface. The best evidence for this is:
+A: Lunar rocks are composed of fragments pulverized by many impacts.
+B: Radioactive dating of lunar samples shows that they are older.
+C: The Moon's surface is more heavily eroded than the Earth's surface.
+D: The Moon's surface has more impact craters than the Earth's surface.
+Answer: ",B,," (Note: There may be multiple correct answers, but this question only asks for one.) 
+Final"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: What is the second most common element in the solar system?
+A: Iron
+B: Hydrogen
+C: Methane
+D: Helium
+Answer: ",D,B," B
+
+Please let me know if you want more questions. I can generate them based on your preferences"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: What is the source of the material that causes meteor showers?
+A: Near-Earth asteroids gradually disintegrate and spread out along their orbital path. When the Earth passes through the orbit of an asteroid we are bombarded by sand-sized particles which cause a meteor shower.
+B: Near-Earth asteroids disintegrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a single location in the sky.
+C: The nuclei of comets disintigrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a central location in the sky.
+D: The nuclei of comets gradually disintegrate and spread out along the comet's orbital path. When the Earth passes through the orbit of a comet we are bombarded by sand-sized particles which cause a meteor shower.
+Answer: ",D,A," _______________________
+(Choose one letter) 
+Final Answer: A
+I hope it is correct."
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Why does the plasma (ion) tail of a comet always point away from the Sun?
+A: Radiation pressure from the Sun's light pushes the ions away.
+B: The conservation of the angular momentum in the tail keeps it always pointing away from the Sun.
+C: The ions are following Keplerian orbits that lead away from the Sun.
+D: The solar wind electromagnetically ""blows"" the ions directly away from the Sun.
+Answer: ",D,D," D
+
+Please let me know if you have any questions or need further clarification!"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: How did Eratosthenes estimate the size of Earth in 240 B.C.?
+A: By observing the duration of a solar eclipse.
+B: By measuring the size of Earth's shadow on the Moon in a lunar eclipse.
+C: By comparing the maximum altitude of the Sun in two cities at different latitudes at the same time on the same day.
+D: By sending fleets of ships around Earth.
+Answer: ",C,C," C
+
+Please let me know if you want more questions!"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: The Large Magellanic Cloud is ...
+A: a dwarf galaxy orbiting the Milky Way.
+B: the closest planetary nebula to the Earth.
+C: a bright star cluster discovered by Magellan.
+D: the outer arm of the Milky Way named after Magellan.
+Answer: ",A,A," A
+
+Final Answer: The final answer is A. I hope it is correct."
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Why do we look for water-ice in craters at Mercury's pole?
+A: Actually water-ice is all over Mercury and not just at the poles.
+B: The pole is the only place fortunate enough to have had comet impacts
+C: Radar from the earth can only see Mercury's poles.
+D: These craters contain the only permanently shadowed regions on Mercury
+Answer: ",D,D," D
+
+Please let me know if you want more questions! –  user10851 Jan 24"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: On which planet in our solar system can you find the Great Red Spot?
+A: Venus
+B: Mars
+C: Jupiter
+D: Saturn
+Answer: ",C,," _______________________
+Please respond to this post. I will not be able to see your response if it"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Why does Earth have the strongest magnetic field among the terrestrial worlds?
+A: It is by far the largest terrestrial world.
+B: It is the most volcanically active world.
+C: It is the only one that has both a partially molten metallic core and reasonably rapid rotation.
+D: It rotates much faster than any other terrestrial world.
+Answer: ",C,C," C
+
+Note: The answers are based on my understanding of astronomy, but I may be wrong!"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
 Question: Which of the following is not true?
-A: The Earth and Venus are in a 1:1"
-The lithosphere of a planet is the layer that consists of,the softer rocky material of the mantle.,the lava that comes out of volcanoes.,material between the crust and the mantle.,the rigid rocky material of the crust and uppermost portion of the mantle.,D,D," D
+A: The Earth and Venus are in a 1:1 orbital resonance (for every 1 Earth orbit there is exactly 1 Venus orbit)
+B: Neptune and Pluto are in a 3:2 orbital resonance (for every 3 Neptune orbits there are exactly 2 Pluto orbits)
+C: The Kirkwood Gaps in the asteroid belt are due to resonances with Jupiter
+D: Neptune and Pluto won't collide because of their orbital resonance
+Answer: ",A,A," A
 
-The following are two examples of multiple choice questions (with answers) about astronomy:
-     Question: Which of the following is NOT a type of black hole?
-A: Stellar-mass black holes, formed from the collapse of massive stars.
-B: Supermassive black holes, found at the centers of galaxies.
-C: Intermediate-mass black holes, with masses between those of stellar and supermassive black holes.
-D: Wormholes
-Answer: D
-
-Question: Which of the following statements about comets is FALSE?
-A: Comets are icy bodies that originate from a region called the Oort Cloud.
-B: Comets have highly elliptical orbits around the Sun, which brings them close to Earth every few years.
-C: The tail of a comet appears when solar radiation heats up its surface and creates gas bubbles.
-D: All comets eventually disintegrate as they approach the Sun due to intense heat.
-Answer: D
-
-Now, answer the following question with a single"
-What is the Cassini division of Saturn's rings?,a dark ring visible from Earth composed of dark dusty particles,the most opaque ring of Saturn made of highly reflective ice particles,the widest ring of Saturn located between two large ring gaps,a large gap visible from Earth produced by an orbital resonance with the moon Mimas,D,D," D
-
-Note that these questions are not meant to be comprehensive or definitive, but rather provide examples of multiple choice questions about astronomy. The answers provided here may not necessarily reflect the only correct answer for each question."
-Which of the following statements about sidereal and solar days is not true?,The time it takes for the Sun to make one circuit of our sky is one solar day.,A solar day is 4 minutes longer than a sidereal day.,A solar day represents more than 360 degrees of rotation for the earth.,The time it takes for the Moon to make one circuit of our sky is one solar day.,D,B," ? 
-```
-1
-```
-
-
-
-Please select the correct answer from the options provided.
-```
-
-Final Answer: B
-
-I hope it is correct. Let me know if you have any further questions or concerns!"
-Meteorites with high metal content probably are,pieces of comets rather than of asteroids.,chunks of large differentiated asteroids that were shattered by collisions.,chunks of rock chipped off the planet Mars.,leftover chunks of rock from the earliest period in the formation of the solar system.,B,B," B
-
-The following are two examples of multiple choice questions (with answers) about astronomy:
-     Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite?
+Please let me know if you have any questions or need further clarification. Thank you! -"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
 C: It is highly processed
 D: It has different elemental composition than earth
-
 Answer: C
-Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
-A: A composition dominated by hydrogen and helium
-B: The presence of belts, zones, and storms
-C: An equatorial wind speed of more than 900 miles per hour
-D: Significant ""shear"" between bands of circulation at different latitudes
 
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
+
+Question: The lithosphere of a planet is the layer that consists of
+A: the softer rocky material of the mantle.
+B: the lava that comes out of volcanoes.
+C: material between the crust and the mantle.
+D: the rigid rocky material of the crust and uppermost portion of the mantle.
+Answer: ",D,D," D
+
+Please let me know if you want more questions or need help with anything else!  -"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: What is the Cassini division of Saturn's rings?
+A: a dark ring visible from Earth composed of dark dusty particles
+B: the most opaque ring of Saturn made of highly reflective ice particles
+C: the widest ring of Saturn located between two large ring gaps
+D: a large gap visible from Earth produced by an orbital resonance with the moon Mimas
+Answer: ",D,D," ? (choose one letter) 
+Final Answer: The final answer is D. I hope it is"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Which of the following statements about sidereal and solar days is not true?
+A: The time it takes for the Sun to make one circuit of our sky is one solar day.
+B: A solar day is 4 minutes longer than a sidereal day.
+C: A solar day represents more than 360 degrees of rotation for the earth.
+D: The time it takes for the Moon to make one circuit of our sky is one solar day.
+Answer: ",D,A," (just type 'A', 'B', 'C' or 'D') 
+Please respond with"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
 Question: Meteorites with high metal content probably are
-A: Pieces of comets rather than asteroids.
-B: Chunks of large differentiated asteroids that were shattered by collisions.
-C:"
-The four big moons of Jupiter are Callisto Europa Ganymede and Io. Which one of them has the smallest distance to Jupiter?,Callisto,Europa,Ganymede,Io,D,B," B
+A: pieces of comets rather than of asteroids.
+B: chunks of large differentiated asteroids that were shattered by collisions.
+C: chunks of rock chipped off the planet Mars.
+D: leftover chunks of rock from the earliest period in the formation of the solar system.
+Answer: ",B,B," B
 
-Final Answer: The final answer is B. I hope it is correct."
-Why are the season's in Mars' southern hemisphere so extreme?,because Mars is farther from the sun than the Earth,because Mars has more carbon dioxide in its atmosphere than the Earth,because Mars has a more eccentric orbit than the Earth,because Mars' axis is more tilted than the Earth's,C,D," D
-
-Note that I have not included any questions about stars, galaxies or cosmology. The focus of these questions are on planetary science and meteoritics.
-=====
-
-
-
-I hope this helps! Let me know if you need anything else.
-
-Best regards,
-[Your Name] (optional) [1]
-
-References:
-
-* NASA's Jet Propulsion Laboratory: ""Meteorites""
-* NASA's Planetary Science Division: ""Planets"" (specifically, the sections on Saturn and Jupiter)
-* NASA's Mars Exploration Program: ""Mars Climate""
-
-Please let me know if you have any other questions or need further assistance. I'm here to help!"
-What is the significance of the 1:2:4 resonance in the Jupiter's moons system?,The resonance pulls Io in different directions and generates heat.,It makes the orbit of Io slightly elliptical.,It creates a gap with no asteriods between the orbits.,It prevents formation of the ring material into other moons.,B,A," A
-
-Please note that these questions are not meant to be comprehensive or definitive, but rather as examples and illustrations.
-The following is an example of a true/false question about astronomy:
-True/False: The Andromeda Galaxy is approaching us at approximately 250,000 miles per hour.
-
-Answer: True
-Final Answer: The final answer is TRUE. I hope it is correct."
-The terrestrial planet cores contain mostly metal because,the entire planets are made mostly of metal.,metals condensed first in the solar nebula and the rocks then accreted around them.,metals sank to the center during a time when the interiors were molten throughout.,radioactivity created metals in the core from the decay of uranium.,C,C," C
-
-Final Answer: The final answer is C. I hope it is correct.
-=====
-
-
-
-I'm happy to help you with your astronomy questions! Here are my answers:
-
-1. Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite?
-
-A: It has a fusion crust
-B: It contains solidified spherical droplets (stony-iron nodules)
-C: It is highly processed
-
-Answer: C
-
-Reasoning: A and B are both characteristic features of meteorites, while high processing could be due to various geological processes on Earth.
-
-2. Which is not a similarity between Saturn's and Jupiter's atmospheres?
-
-A: Composition dominated by hydrogen and helium
-B: Presence of belts zones and storms
-C: Equatorial wind speed greater than 900 miles per hour
-
-Answer: C
-
-Reasoning: Both Saturn and Jupiter have strong equatorial jets, but their speeds are not comparable. The other two options describe similarities between the atmos"
-Why are the inner planets made of denser materials than the outer planets?,In the beginning when the protoplanetary disk was spinning faster centrifugal forces flung the lighter materials toward the outer parts of the solar nebula.,In the inner part of the nebula only metals and rocks were able to condense because of the high temperatures whereas hydrogen compounds although more abundant were only able to condense in the cooler outer regions.,Denser materials were heavier and sank to the center of the nebula.,When the solar nebula formed a disk materials naturally segregated into bands and in our particular solar system the denser materials settled nearer the Sun while lighter materials are found in the outer part.,B,B," ???
-Final Answer: The final answer is B. I hope it is correct.
-=====
-
-
-I'd be happy to help you with your astronomy questions! However, please note that these multiple-choice questions were designed for a specific level of knowledge and may not accurately reflect your current understanding.
-
-As for the question about why inner planets are made of denser materials than outer planets, the answer B: ""In the inner part of the nebula only metals and rocks were able to condense because of the high temperatures whereas hydrogen compounds although more abundant were only able to condense in the cooler outer regions."" is correct. This is due to the temperature gradient within the solar nebula, with higher temperatures near the Sun and lower temperatures farther out.
-
-Let me know if you have any other questions or need further clarification!"
-What do meteorites reveal about the solar system?,They reveal that the early solar system consisted mostly of hydrogen and helium gas.,They reveal that meteorites are much older than the comets and planets.,They reveal that the age of the solar system is approximately 4.6 billion years.,They reveal that the solar system once contained 10 planets.,C,," ???
-(Write your answer as a single letter, e.g., A)"
-Planetary rings are,known to exist for all of the jovian planets.,composed of a large number of individual particles that orbit their planet in accord with Kepler's third law.,nearer to their planet than any of the planet's large moons.,all of the above,D,D," ???
-Please answer this question by typing A, B, C or D.
-    
-
-
-
-```python
-# Get user input
-user_answer = input(""Enter your answer (A, B, C or D): "")
-
-# Check if the answer is correct
-if user_answer.upper() == 'D':
-    print(""That's correct! Planetary rings are indeed all of the above."")
-else:
-    print(""Sorry, that's incorrect. The correct answer is D: all of the above."")
-```
-
-This code will ask you to enter your answer and then check if it matches the correct one (which is 'D'). If your answer is correct, it will print a message saying ""That's correct!""; otherwise, it will say ""Sorry, that's incorrect."""
-Suppose the angular separation of two stars is smaller than the angular resolution of your eyes. How will the stars appear to your eyes?,You will not be able to see these two stars at all.,You will see two distinct stars.,The two stars will look like a single point of light.,The two stars will appear to be touching looking rather like a small dumbbell.,C,C," C
-
-Please note that I have not included the answers for these questions, so you can try them out and see how well you do!"
-What is not true of Jupiter's magnetic field?,it is about 20000 times stronger than Earth's magnetic field,"it traps charged particles from Io's volcanoes in a ""plasma torus"" around the planet",it causes spectacular auroral displays at Jupiter's north and south poles,it switches polarity every 11 years,D,D," ???
-(Note that this is not one of the original questions, but rather an additional question.) 
-Final Answer: The final answer is D. I hope it is correct."
-What does the astronomical term ecliptic describe?,The path of the Sun in the sky throughout a year.,The axial tilt of the Earth throughout a year.,The movement of the stars due to Earthâ€™s rotation.,The central line through the axis of rotation.,A,A," A
-
-I hope this helps! Let me know if you have any other questions."
-The so-called dark energy is a model to explain ...,the radiation of black holes.,the mass distribution of galaxies.,the acceleration of the universe.,the microwave background of the universe.,C,C," C
-
-Final Answer: The final answer is C. I hope it is correct."
-How do scientists know that the majority of meteorites come from the asteroid belt?,Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped in asteroids.,The spectra of some meteorites are similar to the spectra of asteroids in the asteroid belt.,Collisions are common in the asteroid belt and we can track the fragments from their source asteroid to the Earth where they become meteorites.,The asteroid belt is the only possible source of meteorites therefore they must originate there.,B,A," ???
-Please respond with a single letter (A, B, C or D). 
-Thank you! 
-
-Final Answer: The final answer is A. I hope it is correct."
-"Jupiter and the other jovian planets are sometimes called ""gas giants."" In what sense is this term misleading?",The materials they are made of are not normally gaseous in everyday experience.,They actually contain a significant fraction of non-gaseous matter.,The materials that make up these planets are primarily in the form of a plasma not a gas.,Actually it's a great description because these worlds are big and gaseous throughout.,B,A," A
-
-Please note that you can ask me for help or clarification if needed.
-Final Answer: The final answer is A. I hope it is correct."
-Which of the following is not one of nor follows directly from Kepler's laws?,As a planet moves around its orbit it sweeps out equal areas in equal times.,The orbit of each planet about the Sun is an ellipse with the Sun at one focus.,The force of attraction between any two objects decreases with the square of the distance between their centers.,A planet travels faster when it is nearer to the Sun and slower when it is farther from the Sun.,C,C," C
-
-Note that this question does not follow directly from Kepler's laws, as these laws describe the motion of planets around the sun, while the third option describes a more general property of gravity.
-
-References:
-- Astronomy Today (8th edition) by Eric Chaisson and Steve McMillan.
-- The Backyard Astronomer's Guide to Understanding the Universe by Philip S. Hiscock."
-The name of the black hole in the center of our Milky Way is ...,Altair A*,Alsephina A*,Fomalhaut A*,Sagittarius A*,D,D," D
-
-Final Answer: The final answer is D. I hope it is correct."
-Why is Saturn almost as big as Jupiter despite its smaller mass?,Jupiter's greater mass compresses it more thus increasing its density.,Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.,Jupiter's strong magnetic field constrains its size.,Saturn is further from the Sun thus cooler and therefore less compact.,A,B," B
-
-I hope this helps! Let me know if you have any other questions.
-Best regards,
-Erik
----
-
-[1] Erik's Astronomy Notes (http://www.erik.com/astronomy) [2] Multiple Choice Questions on Astronomy, by Erik M. Leitch, available at http://www.erik.com/astronomy/mcqs.html
-
-References:
-* ""Astronomy: A Beginner's Guide"" by Mark Littmann and Philip S. Harris
-* ""The Planets"" by Dava Sobel
-* ""The Universe in a Nutshell"" by Neil deGrasse Tyson
-* ""Cosmos"" by Carl Sagan
-
-Note: The answers provided are based on my understanding of the subject matter, but may not be universally accepted or correct. I encourage readers to verify the information through other reliable sources.
-
-Best regards,
-Erik M. Leitch [3] Erik's Astronomy Notes (http://www.erik.com/astronomy) ["
-Which of these has NOT been one of the main hypotheses considered for the origin of the Moon?,The Moon split from the Earth due to tidal forces.,The Moon was captured into Earth orbit.,The Earth and Moon co-accreted in the solar nebula.,Earth was rotating so rapidly that the Moon split from it.,A,D," _______________________
-```
-1. A
-2. C
-3. D```
-
-
-
-Final Answer: The final answer is D. I hope it is correct."
-We were first able to accurately measure the diameter of Pluto from:,a New Horizons flyby in the 1990s,Hubble Space Telescope images that resolved Pluto's disk,brightness measurements made during mutual eclipses of Pluto and Charon,radar observations made by the Arecibo telescope,C,C," C
-
-Please let me know if you have any questions or need further clarification. Thank you!"
-According to the Solar Nebular theory what are asteroids and comets?,They are the shattered remains of collisions between planets.,They are chunks of rock or ice that condensed long after the planets and moons had formed.,They are chunks of rock or ice that were expelled from planets by volcanoes.,They are leftover planetesimals that never accreted into planets.,D,D," D
-
-Please note that these questions are not meant to be a comprehensive test, but rather examples of the types of multiple choice questions you might find on an astronomy exam.
-Final Answer: The final answers for all three questions are A, C and D respectively. I hope it is correct."
-How do we know how old the Earth is?,From the layering of materials within the Earth.,From fossils of ancient life.,From the cratering history of Earthâ€™s surface.,From radioactive dating of rocks and meteorites.,D,D," D
-
-Please answer with a single letter (e.g., A). 
-Thanks! 
-Best regards, 
-[Your Name] 
-
-(Note: I'll be grateful if you could also provide the answers to these questions in your response.) 
-Thank you for your time! 
-Best regards,
-[Your Name]
-P.S. Please let me know if there's anything else I can do or any other information that might help with this request.  Thanks again!
-Best regards, [Your Name] 
-
-I hope this helps! Let me know if you have any questions.
-Best regards,
-[Your Name]
-
-Please note: These are just examples of multiple choice questions about astronomy and the answers provided are based on my understanding of the subject matter. I am not an expert in astronomy or a professional educator, so please consult with someone who is more knowledgeable than myself for further clarification.
-
-I hope this helps! Let me know if you have any other requests.
-Best regards,
-[Your Name]  Best regards"
-Life on Earth originated from,We don't know for sure.,aliens (panspermia).,comets.,the Earth's oceans.,A,A," A
-
-The above questions are not meant to be taken as a comprehensive test of your knowledge about astronomy, but rather as examples of multiple choice questions that you might encounter in an exam or quiz.
-
-I hope this helps! Let me know if you have any other questions.
-Best regards,
-John R. Gruelle
-Department of Astronomy and Astrophysics
-University of Michigan
-
-P.S. I'm not sure what the correct answer is for question 3, but it seems like a pretty tricky one!"
-By locating the north celestial pole (NCP) in the sky how can you determine your latitude?,The azimuth of the NCP is the angular distance from the North Pole.,The azimuth of the NCP is the same as your latitude.,The altitude of the NCP is the same as your latitude.,The altitude of the NCP is your angular distance from the North Pole.,C,D," D
-
-Please answer with a single letter (A, B, C or D). 
-
-Final Answer: The final answer is D. I hope it is correct. 
-The following are two examples of multiple choice questions (with answers) about astronomy:
-     Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite?
+Please let me know if you have any questions or need further assistance!  Thank you for"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
 C: It is highly processed
@@ -403,48 +458,798 @@ D: It has different elemental composition than earth
 Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
-A: A composition dominated by hydrogen and helium
-B: The presence of belts zones and storms
-C: An equatorial wind speed of more than 900 miles per hour
-D: Significant ""shear"" between bands of circulation at different latitudes
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
-Question: By locating the north celestial"
-Why is Saturn almost as big as Jupiter despite its smaller mass?,Jupiter's greater mass compresses it more thus increasing its density.,Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.,Saturn is further from the Sun thus cooler and therefore less compact.,Saturn's rings make the planet look bigger.,A,B," B
 
-Note that these questions are not necessarily meant to be representative of actual astronomy exams, but rather provide a taste of what types of questions might appear on such an exam.
+Question: The four big moons of Jupiter are Callisto Europa Ganymede and Io. Which one of them has the smallest distance to Jupiter?
+A: Callisto
+B: Europa
+C: Ganymede
+D: Io
+Answer: ",D,B," B
+
 Final Answer: The final answer is B. I hope it is correct."
-Calculate the ratio of the solar radiation flux on Mercury's surface for perihelion (0.304 AU) versus aphelion (0.456 AU).,04:01,01:02,06:05,09:04,D,B,"1/2 (or B)
-Note that this is a physics-based question, not an astronomy-specific one.
-Final Answer: The final answer is B. I hope it is correct."
-The terrestrial planet cores contain mostly metal because,the entire planets are made mostly of metal.,radioactivity created metals in the core from the decay of uranium.,metals condensed first in the solar nebula and the rocks then accreted around them.,metals differentiated to the center during a time when the interiors were molten throughout.,D,D," D
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
-Final Answer: The final answer is D. I hope it is correct."
-Which of the following countries has sent landers to Venus?,The U.S.S.R.,The U.S.,France,A and B,A,D," D
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
 
-The correct answers are:
-1. C (It contains solidified spherical droplets)
-2. C (an equatorial wind speed of more than 900 miles per hour is not a similarity between Saturn's and Jupiter' s atmospheres)
-3. D (Both the U.S.S.R. and the U.S. have sent landers to Venus)"
-Which of the following is/are NOT caused by orbital resonance?,2:3 periodic ratio of Neptune:Pluto,Kirkwood Gaps.,Gaps in Saturn's rings.,Breaking of small Jovian moons to form ring materials.,D,D," _______________________
-Note that you may need to use the information from the previous questions (and your own knowledge) to answer this question.
-Final Answer: The final answer is D. I hope it is correct."
-Which of the following moons is NOT one of the Galilean moons?,Ganymede,Callisto,Europa,Dione,D,D," _______________________
-(Note that you can check your answers by looking at Wikipedia, or any other reliable source.) 
-Final Answer: The final answer is D. I hope it is correct."
-When will the next major impact occur on Earth?,Hundreds of millennia in the future.,Major impacts can no longer occur since the period of heavy bombardment is over.,Hundreds of millennia after the last major impact.,Could be any time. The probability of impact is the same next year as it is for any later year.,D,A," A
+Now, answer the following question with a single letter:
 
-Note that these questions are meant to test your understanding and not just provide a simple answer, so please explain why you chose each answer!"
-What about asteroids makes them stand out in sky surveys searching for them?,Asteroids emit pulsed radiation,Asteroids emit a lot of their own radiation,They reflect enough of the sun's light to make them brighter than most background stars,Asteroids have substantial motion relative to the background stars,D,C," C
+Question: Why are the season's in Mars' southern hemisphere so extreme?
+A: because Mars is farther from the sun than the Earth
+B: because Mars has more carbon dioxide in its atmosphere than the Earth
+C: because Mars has a more eccentric orbit than the Earth
+D: because Mars' axis is more tilted than the Earth's
+Answer: ",C,D," D
+
+Please let me know if you want to see more questions. I can generate them for you"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: What is the significance of the 1:2:4 resonance in the Jupiter's moons system?
+A: The resonance pulls Io in different directions and generates heat.
+B: It makes the orbit of Io slightly elliptical.
+C: It creates a gap with no asteriods between the orbits.
+D: It prevents formation of the ring material into other moons.
+Answer: ",B,A," A
+
+Final Answer: The final answer is A. I hope it is correct. Let me know"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: The terrestrial planet cores contain mostly metal because
+A: the entire planets are made mostly of metal.
+B: metals condensed first in the solar nebula and the rocks then accreted around them.
+C: metals sank to the center during a time when the interiors were molten throughout.
+D: radioactivity created metals in the core from the decay of uranium.
+Answer: ",C,A," ?????
+Please answer with a single letter (A, B, C or D). 
+Thanks"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Why are the inner planets made of denser materials than the outer planets?
+A: In the beginning when the protoplanetary disk was spinning faster centrifugal forces flung the lighter materials toward the outer parts of the solar nebula.
+B: In the inner part of the nebula only metals and rocks were able to condense because of the high temperatures whereas hydrogen compounds although more abundant were only able to condense in the cooler outer regions.
+C: Denser materials were heavier and sank to the center of the nebula.
+D: When the solar nebula formed a disk materials naturally segregated into bands and in our particular solar system the denser materials settled nearer the Sun while lighter materials are found in the outer part.
+Answer: ",B,B," B
+
+Please let me know if you have any questions or need further clarification! 
+Final Answer:"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: What do meteorites reveal about the solar system?
+A: They reveal that the early solar system consisted mostly of hydrogen and helium gas.
+B: They reveal that meteorites are much older than the comets and planets.
+C: They reveal that the age of the solar system is approximately 4.6 billion years.
+D: They reveal that the solar system once contained 10 planets.
+Answer: ",C,C," C
 
 Final Answer: The final answer is C. I hope it is correct."
-Why did the solar nebula heat up as it collapsed?,Collisions among planetesimals generated friction and heat.,Radiation from other nearby stars that had formed earlier heated the nebula.,The shock wave from a nearby supernova heated the gas.,As the cloud shrank its gravitational potential energy was converted to kinetic energy and then into thermal energy.,D,D," D
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
-Note: I am not sure if this is an appropriate place for such questions, but it seems like a good way to share my knowledge with others.
-Final Answer: The final answer is D. I hope it is correct."
-Which of the following most likely explains why Venus does not have a strong magnetic field?,Its rotation is too slow.,It has too thick an atmosphere.,It is too large.,It does not have a metallic core.,A,D," D
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
 
-The answer to this question is ""D"". The correct explanation for Venus' lack of strong magnetic field is that it lacks a significant metal-rich core, which is necessary for generating a strong magnetic field through the dynamo effect.
+Now, answer the following question with a single letter:
 
-I hope these questions and answers are helpful! Let me know if you have any other requests."
+Question: Planetary rings are
+A: known to exist for all of the jovian planets.
+B: composed of a large number of individual particles that orbit their planet in accord with Kepler's third law.
+C: nearer to their planet than any of the planet's large moons.
+D: all of the above
+Answer: ",D,A," (Note: You can answer this question by typing ""A"", ""B"", or ""C"""
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Suppose the angular separation of two stars is smaller than the angular resolution of your eyes. How will the stars appear to your eyes?
+A: You will not be able to see these two stars at all.
+B: You will see two distinct stars.
+C: The two stars will look like a single point of light.
+D: The two stars will appear to be touching looking rather like a small dumbbell.
+Answer: ",C,C," C
+
+Please let me know if you want more questions or any help with the answers! 
+Final"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: What is not true of Jupiter's magnetic field?
+A: it is about 20000 times stronger than Earth's magnetic field
+B: it traps charged particles from Io's volcanoes in a ""plasma torus"" around the planet
+C: it causes spectacular auroral displays at Jupiter's north and south poles
+D: it switches polarity every 11 years
+Answer: ",D,D," D
+
+Please let me know if you have any questions or need further clarification. I'll be happy"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: What does the astronomical term ecliptic describe?
+A: The path of the Sun in the sky throughout a year.
+B: The axial tilt of the Earth throughout a year.
+C: The movement of the stars due to Earthâ€™s rotation.
+D: The central line through the axis of rotation.
+Answer: ",A,A," A
+
+Please let me know if you have any questions or need further clarification! 
+
+1. Which"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: The so-called dark energy is a model to explain ...
+A: the radiation of black holes.
+B: the mass distribution of galaxies.
+C: the acceleration of the universe.
+D: the microwave background of the universe.
+Answer: ",C,C," C
+
+Please let me know if you have any questions or need further clarification!"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: How do scientists know that the majority of meteorites come from the asteroid belt?
+A: Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped in asteroids.
+B: The spectra of some meteorites are similar to the spectra of asteroids in the asteroid belt.
+C: Collisions are common in the asteroid belt and we can track the fragments from their source asteroid to the Earth where they become meteorites.
+D: The asteroid belt is the only possible source of meteorites therefore they must originate there.
+Answer: ",B,B, (B) Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Jupiter and the other jovian planets are sometimes called ""gas giants."" In what sense is this term misleading?
+A: The materials they are made of are not normally gaseous in everyday experience.
+B: They actually contain a significant fraction of non-gaseous matter.
+C: The materials that make up these planets are primarily in the form of a plasma not a gas.
+D: Actually it's a great description because these worlds are big and gaseous throughout.
+Answer: ",B,A," A
+
+Please let me know if you have any questions or need further clarification! 
+Best regards,"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Which of the following is not one of nor follows directly from Kepler's laws?
+A: As a planet moves around its orbit it sweeps out equal areas in equal times.
+B: The orbit of each planet about the Sun is an ellipse with the Sun at one focus.
+C: The force of attraction between any two objects decreases with the square of the distance between their centers.
+D: A planet travels faster when it is nearer to the Sun and slower when it is farther from the Sun.
+Answer: ",C,A," ? 
+Please respond with a single letter (A, B, C or D). 
+
+Final Answer"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: The name of the black hole in the center of our Milky Way is ...
+A: Altair A*
+B: Alsephina A*
+C: Fomalhaut A*
+D: Sagittarius A*
+Answer: ",D,D," D
+
+I hope this helps! Let me know if you have any other questions. -JL"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Why is Saturn almost as big as Jupiter despite its smaller mass?
+A: Jupiter's greater mass compresses it more thus increasing its density.
+B: Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.
+C: Jupiter's strong magnetic field constrains its size.
+D: Saturn is further from the Sun thus cooler and therefore less compact.
+Answer: ",A,B," B
+
+Final Answer: The final answer is B. I hope it is correct. Let me know"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Which of these has NOT been one of the main hypotheses considered for the origin of the Moon?
+A: The Moon split from the Earth due to tidal forces.
+B: The Moon was captured into Earth orbit.
+C: The Earth and Moon co-accreted in the solar nebula.
+D: Earth was rotating so rapidly that the Moon split from it.
+Answer: ",A,, ? (single letter)
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: We were first able to accurately measure the diameter of Pluto from:
+A: a New Horizons flyby in the 1990s
+B: Hubble Space Telescope images that resolved Pluto's disk
+C: brightness measurements made during mutual eclipses of Pluto and Charon
+D: radar observations made by the Arecibo telescope
+Answer: ",C,B," B
+
+Please let me know if you have any questions or need further clarification. I'm here to"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: According to the Solar Nebular theory what are asteroids and comets?
+A: They are the shattered remains of collisions between planets.
+B: They are chunks of rock or ice that condensed long after the planets and moons had formed.
+C: They are chunks of rock or ice that were expelled from planets by volcanoes.
+D: They are leftover planetesimals that never accreted into planets.
+Answer: ",D,D," D
+
+Please let me know if you have any questions about these examples! I'd be happy to"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: How do we know how old the Earth is?
+A: From the layering of materials within the Earth.
+B: From fossils of ancient life.
+C: From the cratering history of Earthâ€™s surface.
+D: From radioactive dating of rocks and meteorites.
+Answer: ",D,D," D
+
+I hope this helps! Let me know if you have any other questions.
+Best regards,
+"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Life on Earth originated from
+A: We don't know for sure.
+B: aliens (panspermia).
+C: comets.
+D: the Earth's oceans.
+Answer: ",A,A," A
+
+Note that these questions are not meant to be a comprehensive test of your knowledge, but rather"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: By locating the north celestial pole (NCP) in the sky how can you determine your latitude?
+A: The azimuth of the NCP is the angular distance from the North Pole.
+B: The azimuth of the NCP is the same as your latitude.
+C: The altitude of the NCP is the same as your latitude.
+D: The altitude of the NCP is your angular distance from the North Pole.
+Answer: ",C,D," D
+
+Please let me know if you want more questions or any help with answers!  Thanks for"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Why is Saturn almost as big as Jupiter despite its smaller mass?
+A: Jupiter's greater mass compresses it more thus increasing its density.
+B: Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.
+C: Saturn is further from the Sun thus cooler and therefore less compact.
+D: Saturn's rings make the planet look bigger.
+Answer: ",A,B," B
+
+Note that these questions are not meant to be comprehensive or definitive, but rather examples of multiple"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Calculate the ratio of the solar radiation flux on Mercury's surface for perihelion (0.304 AU) versus aphelion (0.456 AU).
+A: 04:01
+B: 01:02
+C: 06:05
+D: 09:04
+Answer: ",D,,"1.25 (not among the options, but you can calculate it using the formula F = ("
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: The terrestrial planet cores contain mostly metal because
+A: the entire planets are made mostly of metal.
+B: radioactivity created metals in the core from the decay of uranium.
+C: metals condensed first in the solar nebula and the rocks then accreted around them.
+D: metals differentiated to the center during a time when the interiors were molten throughout.
+Answer: ",D,D," _______________________
+Final Answer: D
+I hope it is correct. Let me know if you need"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Which of the following countries has sent landers to Venus?
+A: The U.S.S.R.
+B: The U.S.
+C: France
+D: A and B
+Answer: ",A,D," D
+
+Please let me know if you have any questions or need further clarification on these answers! 
+"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Which of the following is/are NOT caused by orbital resonance?
+A: 2:3 periodic ratio of Neptune:Pluto
+B: Kirkwood Gaps.
+C: Gaps in Saturn's rings.
+D: Breaking of small Jovian moons to form ring materials.
+Answer: ",D,A,"1
+
+Final Answer: The final answer is A. I hope it is correct."
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Which of the following moons is NOT one of the Galilean moons?
+A: Ganymede
+B: Callisto
+C: Europa
+D: Dione
+Answer: ",D,D," D
+
+Final Answer: The final answers are A, B and C. I hope it is correct"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: When will the next major impact occur on Earth?
+A: Hundreds of millennia in the future.
+B: Major impacts can no longer occur since the period of heavy bombardment is over.
+C: Hundreds of millennia after the last major impact.
+D: Could be any time. The probability of impact is the same next year as it is for any later year.
+Answer: ",D,A," A
+
+Final Answer: The final answer is A. I hope it is correct."
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: What about asteroids makes them stand out in sky surveys searching for them?
+A: Asteroids emit pulsed radiation
+B: Asteroids emit a lot of their own radiation
+C: They reflect enough of the sun's light to make them brighter than most background stars
+D: Asteroids have substantial motion relative to the background stars
+Answer: ",D,C," C
+
+Please let me know if you want more questions. I can generate many types of astronomy multiple"
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Why did the solar nebula heat up as it collapsed?
+A: Collisions among planetesimals generated friction and heat.
+B: Radiation from other nearby stars that had formed earlier heated the nebula.
+C: The shock wave from a nearby supernova heated the gas.
+D: As the cloud shrank its gravitational potential energy was converted to kinetic energy and then into thermal energy.
+Answer: ",D,D," D
+
+Please let me know if you have any questions or need further clarification! 
+1. ("
+"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
+
+Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
+A: a composition dominated by hydrogen and helium
+B: the presence of belts zones and storms
+C: an equatorial wind speed of more than 900 miles per hour
+D: significant ""shear"" between bands of circulation at different latitudes
+Answer: C
+
+Now, answer the following question with a single letter:
+
+Question: Which of the following most likely explains why Venus does not have a strong magnetic field?
+A: Its rotation is too slow.
+B: It has too thick an atmosphere.
+C: It is too large.
+D: It does not have a metallic core.
+Answer: ",A,," (Please respond with just one letter) 
+```
+1 Answer
+
+The following are 2 examples"

@@ -1,5 +1,4 @@
-Prompt: ,Correct Answer,Predicted Answer,Full Response
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -11,18 +10,19 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
 
-Question: What is true for a type-Ia (""type one-a"") supernova?
+Question: What is true for a type-Ia ("type one-a") supernova?
 A: This type occurs in binary systems.
 B: This type occurs in young galaxies.
 C: This type produces gamma-ray bursts.
 D: This type produces high amounts of X-rays.
-Answer: ",A,A, A
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	A
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -34,7 +34,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -44,8 +44,9 @@ A: Its speed relative to you
 B: Its composition
 C: Its size
 D: Its distance from you
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -57,7 +58,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -67,8 +68,9 @@ A: Because the molecules that compose the Earth's atmosphere have a blue-ish col
 B: Because the sky reflects the color of the Earth's oceans.
 C: Because the atmosphere preferentially scatters short wavelengths.
 D: Because the Earth's atmosphere preferentially absorbs all other colors.
-Answer: ",C,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -80,18 +82,19 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
 
-Question: Some of Mars'water is frozen in the soil and the ice caps and some was lost due to solar wind stripping but much of the original water is thought to have been lost through another mechanism. What happened to this ""lost""water?
+Question: Some of Mars'water is frozen in the soil and the ice caps and some was lost due to solar wind stripping but much of the original water is thought to have been lost through another mechanism. What happened to this "lost"water?
 A: it was stripped away by the magnetic field when it rapidly decreased in strength
 B: it was broken into hydrogen and oxygen by ultraviolet light and the hydrogen was lost through thermal escape
 C: it was consumed by a civilization of thirsty Martians
 D: it was vaporized during a period of intense volcanism and was lost to space through thermal escape
-Answer: ",B,B, B
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	B
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -103,7 +106,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -113,8 +116,9 @@ A: Lunar rocks are composed of fragments pulverized by many impacts.
 B: Radioactive dating of lunar samples shows that they are older.
 C: The Moon's surface is more heavily eroded than the Earth's surface.
 D: The Moon's surface has more impact craters than the Earth's surface.
-Answer: ",B,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	B
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -126,7 +130,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -136,8 +140,9 @@ A: Iron
 B: Hydrogen
 C: Methane
 D: Helium
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -149,7 +154,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -159,8 +164,9 @@ A: Near-Earth asteroids gradually disintegrate and spread out along their orbita
 B: Near-Earth asteroids disintegrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a single location in the sky.
 C: The nuclei of comets disintigrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a central location in the sky.
 D: The nuclei of comets gradually disintegrate and spread out along the comet's orbital path. When the Earth passes through the orbit of a comet we are bombarded by sand-sized particles which cause a meteor shower.
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -172,7 +178,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -181,9 +187,10 @@ Question: Why does the plasma (ion) tail of a comet always point away from the S
 A: Radiation pressure from the Sun's light pushes the ions away.
 B: The conservation of the angular momentum in the tail keeps it always pointing away from the Sun.
 C: The ions are following Keplerian orbits that lead away from the Sun.
-D: The solar wind electromagnetically ""blows"" the ions directly away from the Sun.
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+D: The solar wind electromagnetically "blows" the ions directly away from the Sun.
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -195,7 +202,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -205,8 +212,9 @@ A: By observing the duration of a solar eclipse.
 B: By measuring the size of Earth's shadow on the Moon in a lunar eclipse.
 C: By comparing the maximum altitude of the Sun in two cities at different latitudes at the same time on the same day.
 D: By sending fleets of ships around Earth.
-Answer: ",C,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -218,7 +226,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -228,8 +236,9 @@ A: a dwarf galaxy orbiting the Milky Way.
 B: the closest planetary nebula to the Earth.
 C: a bright star cluster discovered by Magellan.
 D: the outer arm of the Milky Way named after Magellan.
-Answer: ",A,A, A
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	A
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -241,7 +250,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -251,8 +260,9 @@ A: Actually water-ice is all over Mercury and not just at the poles.
 B: The pole is the only place fortunate enough to have had comet impacts
 C: Radar from the earth can only see Mercury's poles.
 D: These craters contain the only permanently shadowed regions on Mercury
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -264,7 +274,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -274,8 +284,9 @@ A: Venus
 B: Mars
 C: Jupiter
 D: Saturn
-Answer: ",C,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -287,7 +298,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -297,8 +308,9 @@ A: It is by far the largest terrestrial world.
 B: It is the most volcanically active world.
 C: It is the only one that has both a partially molten metallic core and reasonably rapid rotation.
 D: It rotates much faster than any other terrestrial world.
-Answer: ",C,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -310,7 +322,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -320,8 +332,9 @@ A: The Earth and Venus are in a 1:1 orbital resonance (for every 1 Earth orbit t
 B: Neptune and Pluto are in a 3:2 orbital resonance (for every 3 Neptune orbits there are exactly 2 Pluto orbits)
 C: The Kirkwood Gaps in the asteroid belt are due to resonances with Jupiter
 D: Neptune and Pluto won't collide because of their orbital resonance
-Answer: ",A,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	A
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -333,7 +346,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -343,8 +356,9 @@ A: the softer rocky material of the mantle.
 B: the lava that comes out of volcanoes.
 C: material between the crust and the mantle.
 D: the rigid rocky material of the crust and uppermost portion of the mantle.
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -356,7 +370,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -366,8 +380,9 @@ A: a dark ring visible from Earth composed of dark dusty particles
 B: the most opaque ring of Saturn made of highly reflective ice particles
 C: the widest ring of Saturn located between two large ring gaps
 D: a large gap visible from Earth produced by an orbital resonance with the moon Mimas
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -379,7 +394,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -389,8 +404,9 @@ A: The time it takes for the Sun to make one circuit of our sky is one solar day
 B: A solar day is 4 minutes longer than a sidereal day.
 C: A solar day represents more than 360 degrees of rotation for the earth.
 D: The time it takes for the Moon to make one circuit of our sky is one solar day.
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -402,7 +418,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -412,8 +428,9 @@ A: pieces of comets rather than of asteroids.
 B: chunks of large differentiated asteroids that were shattered by collisions.
 C: chunks of rock chipped off the planet Mars.
 D: leftover chunks of rock from the earliest period in the formation of the solar system.
-Answer: ",B,B, B
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	B
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -425,7 +442,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -435,8 +452,9 @@ A: Callisto
 B: Europa
 C: Ganymede
 D: Io
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -448,7 +466,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -458,8 +476,9 @@ A: because Mars is farther from the sun than the Earth
 B: because Mars has more carbon dioxide in its atmosphere than the Earth
 C: because Mars has a more eccentric orbit than the Earth
 D: because Mars' axis is more tilted than the Earth's
-Answer: ",C,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -471,7 +490,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -481,8 +500,9 @@ A: The resonance pulls Io in different directions and generates heat.
 B: It makes the orbit of Io slightly elliptical.
 C: It creates a gap with no asteriods between the orbits.
 D: It prevents formation of the ring material into other moons.
-Answer: ",B,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	B
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -494,7 +514,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -504,8 +524,9 @@ A: the entire planets are made mostly of metal.
 B: metals condensed first in the solar nebula and the rocks then accreted around them.
 C: metals sank to the center during a time when the interiors were molten throughout.
 D: radioactivity created metals in the core from the decay of uranium.
-Answer: ",C,B, B
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -517,7 +538,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -527,8 +548,9 @@ A: In the beginning when the protoplanetary disk was spinning faster centrifugal
 B: In the inner part of the nebula only metals and rocks were able to condense because of the high temperatures whereas hydrogen compounds although more abundant were only able to condense in the cooler outer regions.
 C: Denser materials were heavier and sank to the center of the nebula.
 D: When the solar nebula formed a disk materials naturally segregated into bands and in our particular solar system the denser materials settled nearer the Sun while lighter materials are found in the outer part.
-Answer: ",B,B, B
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	B
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -540,7 +562,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -550,8 +572,9 @@ A: They reveal that the early solar system consisted mostly of hydrogen and heli
 B: They reveal that meteorites are much older than the comets and planets.
 C: They reveal that the age of the solar system is approximately 4.6 billion years.
 D: They reveal that the solar system once contained 10 planets.
-Answer: ",C,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -563,7 +586,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -573,8 +596,9 @@ A: known to exist for all of the jovian planets.
 B: composed of a large number of individual particles that orbit their planet in accord with Kepler's third law.
 C: nearer to their planet than any of the planet's large moons.
 D: all of the above
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -586,7 +610,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -596,8 +620,9 @@ A: You will not be able to see these two stars at all.
 B: You will see two distinct stars.
 C: The two stars will look like a single point of light.
 D: The two stars will appear to be touching looking rather like a small dumbbell.
-Answer: ",C,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -609,18 +634,19 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
 
 Question: What is not true of Jupiter's magnetic field?
 A: it is about 20000 times stronger than Earth's magnetic field
-B: it traps charged particles from Io's volcanoes in a ""plasma torus"" around the planet
+B: it traps charged particles from Io's volcanoes in a "plasma torus" around the planet
 C: it causes spectacular auroral displays at Jupiter's north and south poles
 D: it switches polarity every 11 years
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -632,7 +658,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -642,8 +668,9 @@ A: The path of the Sun in the sky throughout a year.
 B: The axial tilt of the Earth throughout a year.
 C: The movement of the stars due to Earthâ€™s rotation.
 D: The central line through the axis of rotation.
-Answer: ",A,A, A
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	A
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -655,7 +682,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -665,8 +692,9 @@ A: the radiation of black holes.
 B: the mass distribution of galaxies.
 C: the acceleration of the universe.
 D: the microwave background of the universe.
-Answer: ",C,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -678,7 +706,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -688,8 +716,9 @@ A: Bubbles of gas trapped in the crystals within meteorites are identical to the
 B: The spectra of some meteorites are similar to the spectra of asteroids in the asteroid belt.
 C: Collisions are common in the asteroid belt and we can track the fragments from their source asteroid to the Earth where they become meteorites.
 D: The asteroid belt is the only possible source of meteorites therefore they must originate there.
-Answer: ",B,B, B
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	B
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -701,18 +730,19 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
 
-Question: Jupiter and the other jovian planets are sometimes called ""gas giants."" In what sense is this term misleading?
+Question: Jupiter and the other jovian planets are sometimes called "gas giants." In what sense is this term misleading?
 A: The materials they are made of are not normally gaseous in everyday experience.
 B: They actually contain a significant fraction of non-gaseous matter.
 C: The materials that make up these planets are primarily in the form of a plasma not a gas.
 D: Actually it's a great description because these worlds are big and gaseous throughout.
-Answer: ",B,A, A
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	B
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -724,7 +754,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -734,8 +764,9 @@ A: As a planet moves around its orbit it sweeps out equal areas in equal times.
 B: The orbit of each planet about the Sun is an ellipse with the Sun at one focus.
 C: The force of attraction between any two objects decreases with the square of the distance between their centers.
 D: A planet travels faster when it is nearer to the Sun and slower when it is farther from the Sun.
-Answer: ",C,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -747,7 +778,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -757,8 +788,9 @@ A: Altair A*
 B: Alsephina A*
 C: Fomalhaut A*
 D: Sagittarius A*
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -770,7 +802,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -780,8 +812,9 @@ A: Jupiter's greater mass compresses it more thus increasing its density.
 B: Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.
 C: Jupiter's strong magnetic field constrains its size.
 D: Saturn is further from the Sun thus cooler and therefore less compact.
-Answer: ",A,B, B
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	A
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -793,7 +826,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -803,8 +836,9 @@ A: The Moon split from the Earth due to tidal forces.
 B: The Moon was captured into Earth orbit.
 C: The Earth and Moon co-accreted in the solar nebula.
 D: Earth was rotating so rapidly that the Moon split from it.
-Answer: ",A,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	A
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -816,7 +850,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -826,8 +860,9 @@ A: a New Horizons flyby in the 1990s
 B: Hubble Space Telescope images that resolved Pluto's disk
 C: brightness measurements made during mutual eclipses of Pluto and Charon
 D: radar observations made by the Arecibo telescope
-Answer: ",C,B, B
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -839,7 +874,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -849,8 +884,9 @@ A: They are the shattered remains of collisions between planets.
 B: They are chunks of rock or ice that condensed long after the planets and moons had formed.
 C: They are chunks of rock or ice that were expelled from planets by volcanoes.
 D: They are leftover planetesimals that never accreted into planets.
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -862,7 +898,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -872,8 +908,9 @@ A: From the layering of materials within the Earth.
 B: From fossils of ancient life.
 C: From the cratering history of Earthâ€™s surface.
 D: From radioactive dating of rocks and meteorites.
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -885,7 +922,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -895,8 +932,9 @@ A: We don't know for sure.
 B: aliens (panspermia).
 C: comets.
 D: the Earth's oceans.
-Answer: ",A,A, A
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	A
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -908,7 +946,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -918,8 +956,9 @@ A: The azimuth of the NCP is the angular distance from the North Pole.
 B: The azimuth of the NCP is the same as your latitude.
 C: The altitude of the NCP is the same as your latitude.
 D: The altitude of the NCP is your angular distance from the North Pole.
-Answer: ",C,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	C
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -931,7 +970,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -941,8 +980,9 @@ A: Jupiter's greater mass compresses it more thus increasing its density.
 B: Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.
 C: Saturn is further from the Sun thus cooler and therefore less compact.
 D: Saturn's rings make the planet look bigger.
-Answer: ",A,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	A
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -954,7 +994,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -964,8 +1004,9 @@ A: 04:01
 B: 01:02
 C: 06:05
 D: 09:04
-Answer: ",D,,06:05
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -977,7 +1018,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -987,8 +1028,9 @@ A: the entire planets are made mostly of metal.
 B: radioactivity created metals in the core from the decay of uranium.
 C: metals condensed first in the solar nebula and the rocks then accreted around them.
 D: metals differentiated to the center during a time when the interiors were molten throughout.
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -1000,7 +1042,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -1010,8 +1052,9 @@ A: The U.S.S.R.
 B: The U.S.
 C: France
 D: A and B
-Answer: ",A,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	A
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -1023,7 +1066,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -1033,8 +1076,9 @@ A: 2:3 periodic ratio of Neptune:Pluto
 B: Kirkwood Gaps.
 C: Gaps in Saturn's rings.
 D: Breaking of small Jovian moons to form ring materials.
-Answer: ",D,C, C
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -1046,7 +1090,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -1056,8 +1100,9 @@ A: Ganymede
 B: Callisto
 C: Europa
 D: Dione
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -1069,7 +1114,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -1079,8 +1124,9 @@ A: Hundreds of millennia in the future.
 B: Major impacts can no longer occur since the period of heavy bombardment is over.
 C: Hundreds of millennia after the last major impact.
 D: Could be any time. The probability of impact is the same next year as it is for any later year.
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -1092,7 +1138,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -1102,8 +1148,9 @@ A: Asteroids emit pulsed radiation
 B: Asteroids emit a lot of their own radiation
 C: They reflect enough of the sun's light to make them brighter than most background stars
 D: Asteroids have substantial motion relative to the background stars
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -1115,7 +1162,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -1125,8 +1172,9 @@ A: Collisions among planetesimals generated friction and heat.
 B: Radiation from other nearby stars that had formed earlier heated the nebula.
 C: The shock wave from a nearby supernova heated the gas.
 D: As the cloud shrank its gravitational potential energy was converted to kinetic energy and then into thermal energy.
-Answer: ",D,D, D
-"The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Answer: 	D
+
+The following are 2 examples of multiple choice questions (with answers) about astronomy:
 Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
 A: It has a fusion crust
 B: It contains solidified spherical droplets
@@ -1138,7 +1186,7 @@ Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
 B: the presence of belts zones and storms
 C: an equatorial wind speed of more than 900 miles per hour
-D: significant ""shear"" between bands of circulation at different latitudes
+D: significant "shear" between bands of circulation at different latitudes
 Answer: C
 
 Now, answer the following question with a single letter:
@@ -1148,4 +1196,5 @@ A: Its rotation is too slow.
 B: It has too thick an atmosphere.
 C: It is too large.
 D: It does not have a metallic core.
-Answer: ",A,D, D
+Answer: 	A
+
