@@ -12,14 +12,14 @@ B: Its composition
 C: Its size
 D: Its distance from you
 Answer: ",D,D," D: Its distance from you
-Explanation: The concept that allows us to estimate the distance of an"
+Explanation: Since we have two pieces of information, the actual brightness"
 "Question: Why is the sky blue?
 A: Because the molecules that compose the Earth's atmosphere have a blue-ish color.
 B: Because the sky reflects the color of the Earth's oceans.
 C: Because the atmosphere preferentially scatters short wavelengths.
 D: Because the Earth's atmosphere preferentially absorbs all other colors.
 Answer: ",C,C,"3: Because the atmosphere preferentially scatters short wavelengths.
-Explanation: The correct answer is C:"
+Explanation: The correct answer is C,"
 "Question: Some of Mars'water is frozen in the soil and the ice caps and some was lost due to solar wind stripping but much of the original water is thought to have been lost through another mechanism. What happened to this ""lost""water?
 A: it was stripped away by the magnetic field when it rapidly decreased in strength
 B: it was broken into hydrogen and oxygen by ultraviolet light and the hydrogen was lost through thermal escape
@@ -45,7 +45,7 @@ A: Near-Earth asteroids gradually disintegrate and spread out along their orbita
 B: Near-Earth asteroids disintegrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a single location in the sky.
 C: The nuclei of comets disintigrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a central location in the sky.
 D: The nuclei of comets gradually disintegrate and spread out along the comet's orbital path. When the Earth passes through the orbit of a comet we are bombarded by sand-sized particles which cause a meteor shower.
-Answer: ",D,A, A: Near-Earth asteroids gradually disintegrate and spread out along their orbital path. When the
+Answer: ",D,D, D: The nuclei of comets gradually disintegrate and spread out along the comet's orbital path
 "Question: Why does the plasma (ion) tail of a comet always point away from the Sun?
 A: Radiation pressure from the Sun's light pushes the ions away.
 B: The conservation of the angular momentum in the tail keeps it always pointing away from the Sun.
@@ -167,7 +167,7 @@ B: composed of a large number of individual particles that orbit their planet in
 C: nearer to their planet than any of the planet's large moons.
 D: all of the above
 Answer: ",D,D," D: all of the above
-Explanation: Planetary rings are known to exist for several of the"
+Explanation: Planetary rings are known to exist for all of the"
 "Question: Suppose the angular separation of two stars is smaller than the angular resolution of your eyes. How will the stars appear to your eyes?
 A: You will not be able to see these two stars at all.
 B: You will see two distinct stars.
@@ -194,22 +194,21 @@ A: the radiation of black holes.
 B: the mass distribution of galaxies.
 C: the acceleration of the universe.
 D: the microwave background of the universe.
-Answer: ",C,,"3: the acceleration of the universe.
-Explanation: Dark energy refers to an unknown form of energy that"
+Answer: ",C,,"3
+Explanation: Dark energy refers to an unknown form of energy that is thought to be spread throughout"
 "Question: How do scientists know that the majority of meteorites come from the asteroid belt?
 A: Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped in asteroids.
 B: The spectra of some meteorites are similar to the spectra of asteroids in the asteroid belt.
 C: Collisions are common in the asteroid belt and we can track the fragments from their source asteroid to the Earth where they become meteorites.
 D: The asteroid belt is the only possible source of meteorites therefore they must originate there.
 Answer: ",B,B," B
-Explanation: Scientists have analyzed the spectra (the distribution of light emitted by an object) of"
+Explanation: Scientists have determined that most meteorites come from the asteroid belt by comparing the spectra"
 "Question: Jupiter and the other jovian planets are sometimes called ""gas giants."" In what sense is this term misleading?
 A: The materials they are made of are not normally gaseous in everyday experience.
 B: They actually contain a significant fraction of non-gaseous matter.
 C: The materials that make up these planets are primarily in the form of a plasma not a gas.
 D: Actually it's a great description because these worlds are big and gaseous throughout.
-Answer: ",B,A," A: The materials they are made of are not normally gaseous in everyday experience.
-Explanation:"
+Answer: ",B,B,"1A, B, C (All correct) !!!! (I know this is an odd answer"
 "Question: Which of the following is not one of nor follows directly from Kepler's laws?
 A: As a planet moves around its orbit it sweeps out equal areas in equal times.
 B: The orbit of each planet about the Sun is an ellipse with the Sun at one focus.
@@ -225,7 +224,7 @@ B: Alsephina A*
 C: Fomalhaut A*
 D: Sagittarius A*
 Answer: ",D,D," D: Sagittarius A*
-Explanation: *Sagittarius A* (also known as"
+Explanation: *Sagittarius A*, or Sgr A"
 "Question: Why is Saturn almost as big as Jupiter despite its smaller mass?
 A: Jupiter's greater mass compresses it more thus increasing its density.
 B: Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.
@@ -238,14 +237,14 @@ A: The Moon split from the Earth due to tidal forces.
 B: The Moon was captured into Earth orbit.
 C: The Earth and Moon co-accreted in the solar nebula.
 D: Earth was rotating so rapidly that the Moon split from it.
-Answer: ",A,B," B: The Moon was captured into Earth orbit.
-Explanation: None of these options have been widely accepted"
+Answer: ",A,A," A, B, C, D (All of these) - None of the above is correct.
+"
 "Question: We were first able to accurately measure the diameter of Pluto from:
 A: a New Horizons flyby in the 1990s
 B: Hubble Space Telescope images that resolved Pluto's disk
 C: brightness measurements made during mutual eclipses of Pluto and Charon
 D: radar observations made by the Arecibo telescope
-Answer: ",C,B,1989-1991 (Option B) - The first accurate measurement was done using the Hubble
+Answer: ",C,B,1989-1994 (Option B) - The first accurate measurement was done using the Hubble
 "Question: According to the Solar Nebular theory what are asteroids and comets?
 A: They are the shattered remains of collisions between planets.
 B: They are chunks of rock or ice that condensed long after the planets and moons had formed.
@@ -265,15 +264,14 @@ A: We don't know for sure.
 B: aliens (panspermia).
 C: comets.
 D: the Earth's oceans.
-Answer: ",A,A," A: We don't know for sure.
-Explanation: The origin of life is a complex and still"
+Answer: ",A,A,"1 A (We don't know for sure.)! The origin of life is still a mystery,"
 "Question: By locating the north celestial pole (NCP) in the sky how can you determine your latitude?
 A: The azimuth of the NCP is the angular distance from the North Pole.
 B: The azimuth of the NCP is the same as your latitude.
 C: The altitude of the NCP is the same as your latitude.
 D: The altitude of the NCP is your angular distance from the North Pole.
 Answer: ",C,D," D: The altitude of the NCP is your angular distance from the North Pole.
-Explanation: To"
+Explanation: By"
 "Question: Why is Saturn almost as big as Jupiter despite its smaller mass?
 A: Jupiter's greater mass compresses it more thus increasing its density.
 B: Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.
@@ -286,9 +284,11 @@ A: 04:01
 B: 01:02
 C: 06:05
 D: 09:04
-Answer: ",D,,"1.33 (or approximately 4:3, which is the closest option)
+Answer: ",D,,"1.41 (or approximately 4:3, which is not an option)
 
-Explanation: The"
+Explanation:
+
+The"
 "Question: The terrestrial planet cores contain mostly metal because
 A: the entire planets are made mostly of metal.
 B: radioactivity created metals in the core from the decay of uranium.
@@ -308,19 +308,20 @@ A: 2:3 periodic ratio of Neptune:Pluto
 B: Kirkwood Gaps.
 C: Gaps in Saturn's rings.
 D: Breaking of small Jovian moons to form ring materials.
-Answer: ",D,D,4:D (Breaking of small Jovian moons to form ring materials.) - It is not caused
+Answer: ",D,D,4: D. (Not caused by Orbital Resonance) - The other three options are
 "Question: Which of the following moons is NOT one of the Galilean moons?
 A: Ganymede
 B: Callisto
 C: Europa
 D: Dione
-Answer: ",D,D,"4:D (Ganymede, Callisto and Europa are known as the Galilean moons"
+Answer: ",D,D,"4:D (Note: The correct answer should be ""D"" as there are no other options that"
 "Question: When will the next major impact occur on Earth?
 A: Hundreds of millennia in the future.
 B: Major impacts can no longer occur since the period of heavy bombardment is over.
 C: Hundreds of millennia after the last major impact.
 D: Could be any time. The probability of impact is the same next year as it is for any later year.
-Answer: ",D,D,"4-D. It could happen at any time, and there's no way to predict when or if"
+Answer: ",D,D,"1A (Hundreds of millennia in the future.) and D (Could be any time.)
+Explanation:"
 "Question: What about asteroids makes them stand out in sky surveys searching for them?
 A: Asteroids emit pulsed radiation
 B: Asteroids emit a lot of their own radiation
@@ -340,4 +341,4 @@ B: It has too thick an atmosphere.
 C: It is too large.
 D: It does not have a metallic core.
 Answer: ",A,D," D
-Explanation: The presence of a strong magnetic field requires the existence of liquid iron in the planet"
+Explanation: The strength and duration of the Earth's magnetic field are largely determined by its mol"
