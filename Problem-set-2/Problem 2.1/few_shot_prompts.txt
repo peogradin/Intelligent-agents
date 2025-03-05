@@ -14,7 +14,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: What is true for a type-Ia ("type one-a") supernova?
 A: This type occurs in binary systems.
@@ -39,7 +39,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: If you know both the actual brightness of an object and its apparent brightness from your location then with no other information you can estimate:
 A: Its speed relative to you
@@ -64,7 +64,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Why is the sky blue?
 A: Because the molecules that compose the Earth's atmosphere have a blue-ish color.
@@ -89,7 +89,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Some of Mars'water is frozen in the soil and the ice caps and some was lost due to solar wind stripping but much of the original water is thought to have been lost through another mechanism. What happened to this "lost"water?
 A: it was stripped away by the magnetic field when it rapidly decreased in strength
@@ -114,7 +114,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Most rocks on the Moon's surface are older than those on the Earth's surface. The best evidence for this is:
 A: Lunar rocks are composed of fragments pulverized by many impacts.
@@ -139,7 +139,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: What is the second most common element in the solar system?
 A: Iron
@@ -164,7 +164,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: What is the source of the material that causes meteor showers?
 A: Near-Earth asteroids gradually disintegrate and spread out along their orbital path. When the Earth passes through the orbit of an asteroid we are bombarded by sand-sized particles which cause a meteor shower.
@@ -189,7 +189,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Why does the plasma (ion) tail of a comet always point away from the Sun?
 A: Radiation pressure from the Sun's light pushes the ions away.
@@ -214,7 +214,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: How did Eratosthenes estimate the size of Earth in 240 B.C.?
 A: By observing the duration of a solar eclipse.
@@ -239,7 +239,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: The Large Magellanic Cloud is ...
 A: a dwarf galaxy orbiting the Milky Way.
@@ -264,7 +264,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Why do we look for water-ice in craters at Mercury's pole?
 A: Actually water-ice is all over Mercury and not just at the poles.
@@ -289,7 +289,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: On which planet in our solar system can you find the Great Red Spot?
 A: Venus
@@ -314,7 +314,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Why does Earth have the strongest magnetic field among the terrestrial worlds?
 A: It is by far the largest terrestrial world.
@@ -339,7 +339,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Which of the following is not true?
 A: The Earth and Venus are in a 1:1 orbital resonance (for every 1 Earth orbit there is exactly 1 Venus orbit)
@@ -364,7 +364,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: The lithosphere of a planet is the layer that consists of
 A: the softer rocky material of the mantle.
@@ -389,7 +389,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: What is the Cassini division of Saturn's rings?
 A: a dark ring visible from Earth composed of dark dusty particles
@@ -414,7 +414,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Which of the following statements about sidereal and solar days is not true?
 A: The time it takes for the Sun to make one circuit of our sky is one solar day.
@@ -439,7 +439,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Meteorites with high metal content probably are
 A: pieces of comets rather than of asteroids.
@@ -464,7 +464,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: The four big moons of Jupiter are Callisto Europa Ganymede and Io. Which one of them has the smallest distance to Jupiter?
 A: Callisto
@@ -489,7 +489,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Why are the season's in Mars' southern hemisphere so extreme?
 A: because Mars is farther from the sun than the Earth
@@ -514,7 +514,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: What is the significance of the 1:2:4 resonance in the Jupiter's moons system?
 A: The resonance pulls Io in different directions and generates heat.
@@ -539,7 +539,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: The terrestrial planet cores contain mostly metal because
 A: the entire planets are made mostly of metal.
@@ -564,7 +564,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Why are the inner planets made of denser materials than the outer planets?
 A: In the beginning when the protoplanetary disk was spinning faster centrifugal forces flung the lighter materials toward the outer parts of the solar nebula.
@@ -589,7 +589,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: What do meteorites reveal about the solar system?
 A: They reveal that the early solar system consisted mostly of hydrogen and helium gas.
@@ -614,7 +614,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Planetary rings are
 A: known to exist for all of the jovian planets.
@@ -639,7 +639,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Suppose the angular separation of two stars is smaller than the angular resolution of your eyes. How will the stars appear to your eyes?
 A: You will not be able to see these two stars at all.
@@ -664,7 +664,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: What is not true of Jupiter's magnetic field?
 A: it is about 20000 times stronger than Earth's magnetic field
@@ -689,7 +689,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: What does the astronomical term ecliptic describe?
 A: The path of the Sun in the sky throughout a year.
@@ -714,7 +714,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: The so-called dark energy is a model to explain ...
 A: the radiation of black holes.
@@ -739,7 +739,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: How do scientists know that the majority of meteorites come from the asteroid belt?
 A: Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped in asteroids.
@@ -764,7 +764,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Jupiter and the other jovian planets are sometimes called "gas giants." In what sense is this term misleading?
 A: The materials they are made of are not normally gaseous in everyday experience.
@@ -789,7 +789,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Which of the following is not one of nor follows directly from Kepler's laws?
 A: As a planet moves around its orbit it sweeps out equal areas in equal times.
@@ -814,7 +814,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: The name of the black hole in the center of our Milky Way is ...
 A: Altair A*
@@ -839,7 +839,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Why is Saturn almost as big as Jupiter despite its smaller mass?
 A: Jupiter's greater mass compresses it more thus increasing its density.
@@ -864,7 +864,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Which of these has NOT been one of the main hypotheses considered for the origin of the Moon?
 A: The Moon split from the Earth due to tidal forces.
@@ -889,7 +889,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: We were first able to accurately measure the diameter of Pluto from:
 A: a New Horizons flyby in the 1990s
@@ -914,7 +914,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: According to the Solar Nebular theory what are asteroids and comets?
 A: They are the shattered remains of collisions between planets.
@@ -939,7 +939,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: How do we know how old the Earth is?
 A: From the layering of materials within the Earth.
@@ -964,7 +964,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Life on Earth originated from
 A: We don't know for sure.
@@ -989,7 +989,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: By locating the north celestial pole (NCP) in the sky how can you determine your latitude?
 A: The azimuth of the NCP is the angular distance from the North Pole.
@@ -1014,7 +1014,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Why is Saturn almost as big as Jupiter despite its smaller mass?
 A: Jupiter's greater mass compresses it more thus increasing its density.
@@ -1039,7 +1039,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Calculate the ratio of the solar radiation flux on Mercury's surface for perihelion (0.304 AU) versus aphelion (0.456 AU).
 A: 04:01
@@ -1064,7 +1064,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: The terrestrial planet cores contain mostly metal because
 A: the entire planets are made mostly of metal.
@@ -1089,7 +1089,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Which of the following countries has sent landers to Venus?
 A: The U.S.S.R.
@@ -1114,7 +1114,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Which of the following is/are NOT caused by orbital resonance?
 A: 2:3 periodic ratio of Neptune:Pluto
@@ -1139,7 +1139,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Which of the following moons is NOT one of the Galilean moons?
 A: Ganymede
@@ -1164,7 +1164,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: When will the next major impact occur on Earth?
 A: Hundreds of millennia in the future.
@@ -1189,7 +1189,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: What about asteroids makes them stand out in sky surveys searching for them?
 A: Asteroids emit pulsed radiation
@@ -1214,7 +1214,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Why did the solar nebula heat up as it collapsed?
 A: Collisions among planetesimals generated friction and heat.
@@ -1239,7 +1239,7 @@ C: 2 times brighter
 D: 50 times brighter
 Answer: B
 
-Now, answer the following question:
+Now, answer following question:
 
 Question: Which of the following most likely explains why Venus does not have a strong magnetic field?
 A: Its rotation is too slow.

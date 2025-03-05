@@ -1,5 +1,11 @@
 Prompt: ,Correct Answer,Predicted Answer,Full Response
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -8,25 +14,25 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: What is true for a type-Ia (""type one-a"") supernova?
 A: This type occurs in binary systems.
 B: This type occurs in young galaxies.
 C: This type produces gamma-ray bursts.
 D: This type produces high amounts of X-rays.
-Answer: ",A,A," ???
-What is your answer to this question?
+Answer: ",A,A," A
 
-Final Answer: The final answer is A. I"
+Please let me know if you have any questions or need further assistance! 
+1
+The"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -35,14 +41,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: If you know both the actual brightness of an object and its apparent brightness from your location then with no other information you can estimate:
 A: Its speed relative to you
@@ -51,8 +50,14 @@ C: Its size
 D: Its distance from you
 Answer: ",D,D," D
 
-Please let me know if my answer is correct. I am a bit rusty in astronomy!"
+Please let me know if these are correct. I'm not sure about the last question,"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -61,14 +66,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Why is the sky blue?
 A: Because the molecules that compose the Earth's atmosphere have a blue-ish color.
@@ -77,8 +75,15 @@ C: Because the atmosphere preferentially scatters short wavelengths.
 D: Because the Earth's atmosphere preferentially absorbs all other colors.
 Answer: ",C,C," C
 
-Note that these questions are not meant to be comprehensive or definitive, but rather a sample of"
+I hope this helps! Let me know if you have any questions or need further assistance.
+"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -87,14 +92,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Some of Mars'water is frozen in the soil and the ice caps and some was lost due to solar wind stripping but much of the original water is thought to have been lost through another mechanism. What happened to this ""lost""water?
 A: it was stripped away by the magnetic field when it rapidly decreased in strength
@@ -103,8 +101,14 @@ C: it was consumed by a civilization of thirsty Martians
 D: it was vaporized during a period of intense volcanism and was lost to space through thermal escape
 Answer: ",B,B," B
 
-Please let me know if you want more questions. I can generate them using my knowledge of"
+Final Answer: The final answer is B. I hope it is correct. Let me know"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -113,24 +117,22 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Most rocks on the Moon's surface are older than those on the Earth's surface. The best evidence for this is:
 A: Lunar rocks are composed of fragments pulverized by many impacts.
 B: Radioactive dating of lunar samples shows that they are older.
 C: The Moon's surface is more heavily eroded than the Earth's surface.
 D: The Moon's surface has more impact craters than the Earth's surface.
-Answer: ",B,," ???
-Please provide your answer and explain why you chose it.
-Final Answer: The final answer is"
+Answer: ",B,," (Note: There may be multiple correct answers, but this question only asks for one.) 
+Final"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -139,24 +141,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: What is the second most common element in the solar system?
 A: Iron
 B: Hydrogen
 C: Methane
 D: Helium
-Answer: ",D,," ???
-Please respond with your answer. I will tell you whether it's correct or not.
-Final"
+Answer: ",D,B," B
+
+Please let me know if you want more questions. I can generate them based on your preferences"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -165,22 +166,24 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: What is the source of the material that causes meteor showers?
 A: Near-Earth asteroids gradually disintegrate and spread out along their orbital path. When the Earth passes through the orbit of an asteroid we are bombarded by sand-sized particles which cause a meteor shower.
 B: Near-Earth asteroids disintegrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a single location in the sky.
 C: The nuclei of comets disintigrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a central location in the sky.
 D: The nuclei of comets gradually disintegrate and spread out along the comet's orbital path. When the Earth passes through the orbit of a comet we are bombarded by sand-sized particles which cause a meteor shower.
-Answer: ",D,A, (A) Near-Earth asteroids gradually disintegrate and spread out along their orbital path. When
+Answer: ",D,A," _______________________
+(Choose one letter) 
+Final Answer: A
+I hope it is correct."
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -189,27 +192,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Why does the plasma (ion) tail of a comet always point away from the Sun?
 A: Radiation pressure from the Sun's light pushes the ions away.
 B: The conservation of the angular momentum in the tail keeps it always pointing away from the Sun.
 C: The ions are following Keplerian orbits that lead away from the Sun.
 D: The solar wind electromagnetically ""blows"" the ions directly away from the Sun.
-Answer: ",D,," ???
-Please respond with your answer and any relevant comments you may have.
+Answer: ",D,D," D
 
-#### Attachments
-
-•"
+Please let me know if you have any questions or need further clarification!"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -218,14 +217,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: How did Eratosthenes estimate the size of Earth in 240 B.C.?
 A: By observing the duration of a solar eclipse.
@@ -234,8 +226,14 @@ C: By comparing the maximum altitude of the Sun in two cities at different latit
 D: By sending fleets of ships around Earth.
 Answer: ",C,C," C
 
-Note that Eratosthenes used the angle of shadows cast by the Sun at noon"
+Please let me know if you want more questions!"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -244,14 +242,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: The Large Magellanic Cloud is ...
 A: a dwarf galaxy orbiting the Milky Way.
@@ -260,8 +251,14 @@ C: a bright star cluster discovered by Magellan.
 D: the outer arm of the Milky Way named after Magellan.
 Answer: ",A,A," A
 
-I hope this helps! Let me know if you have any questions or need further assistance."
+Final Answer: The final answer is A. I hope it is correct."
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -270,14 +267,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Why do we look for water-ice in craters at Mercury's pole?
 A: Actually water-ice is all over Mercury and not just at the poles.
@@ -286,8 +276,14 @@ C: Radar from the earth can only see Mercury's poles.
 D: These craters contain the only permanently shadowed regions on Mercury
 Answer: ",D,D," D
 
-Final Answer: The final answer is D. I hope it is correct."
+Please let me know if you want more questions! –  user10851 Jan 24"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -296,24 +292,22 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: On which planet in our solar system can you find the Great Red Spot?
 A: Venus
 B: Mars
 C: Jupiter
 D: Saturn
-Answer: ",C,C," C: Jupiter
-
-Final Answer: The final answer is C. I hope it is correct. Let"
+Answer: ",C,," _______________________
+Please respond to this post. I will not be able to see your response if it"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -322,14 +316,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Why does Earth have the strongest magnetic field among the terrestrial worlds?
 A: It is by far the largest terrestrial world.
@@ -338,8 +325,14 @@ C: It is the only one that has both a partially molten metallic core and reasona
 D: It rotates much faster than any other terrestrial world.
 Answer: ",C,C," C
 
-Final Answer: The final answer is C. I hope it is correct."
+Note: The answers are based on my understanding of astronomy, but I may be wrong!"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -348,24 +341,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Which of the following is not true?
 A: The Earth and Venus are in a 1:1 orbital resonance (for every 1 Earth orbit there is exactly 1 Venus orbit)
 B: Neptune and Pluto are in a 3:2 orbital resonance (for every 3 Neptune orbits there are exactly 2 Pluto orbits)
 C: The Kirkwood Gaps in the asteroid belt are due to resonances with Jupiter
 D: Neptune and Pluto won't collide because of their orbital resonance
-Answer: ",A,," ???
-Please help me. I am not sure about this one.
-Final Answer: The final answer"
+Answer: ",A,A," A
+
+Please let me know if you have any questions or need further clarification. Thank you! -"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -374,14 +366,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: The lithosphere of a planet is the layer that consists of
 A: the softer rocky material of the mantle.
@@ -390,9 +375,14 @@ C: material between the crust and the mantle.
 D: the rigid rocky material of the crust and uppermost portion of the mantle.
 Answer: ",D,D," D
 
-I will give you feedback on your answer! 
-Please respond with your answer to this question"
+Please let me know if you want more questions or need help with anything else!  -"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -401,24 +391,22 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: What is the Cassini division of Saturn's rings?
 A: a dark ring visible from Earth composed of dark dusty particles
 B: the most opaque ring of Saturn made of highly reflective ice particles
 C: the widest ring of Saturn located between two large ring gaps
 D: a large gap visible from Earth produced by an orbital resonance with the moon Mimas
-Answer: ",D,D," D
-
-Please let me know if you have any questions or need further clarification. I'll be happy"
+Answer: ",D,D," ? (choose one letter) 
+Final Answer: The final answer is D. I hope it is"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -427,23 +415,22 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Which of the following statements about sidereal and solar days is not true?
 A: The time it takes for the Sun to make one circuit of our sky is one solar day.
 B: A solar day is 4 minutes longer than a sidereal day.
 C: A solar day represents more than 360 degrees of rotation for the earth.
 D: The time it takes for the Moon to make one circuit of our sky is one solar day.
-Answer: ",D,A," _______________________
-Note that you can choose any letter (A, B, C or D) as"
+Answer: ",D,A," (just type 'A', 'B', 'C' or 'D') 
+Please respond with"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -452,23 +439,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Meteorites with high metal content probably are
 A: pieces of comets rather than of asteroids.
 B: chunks of large differentiated asteroids that were shattered by collisions.
 C: chunks of rock chipped off the planet Mars.
 D: leftover chunks of rock from the earliest period in the formation of the solar system.
-Answer: ",B,," _______________________
-(Note: Please answer only this question, not any other questions.) Sep 17 '"
+Answer: ",B,B," B
+
+Please let me know if you have any questions or need further assistance!  Thank you for"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -477,23 +464,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: The four big moons of Jupiter are Callisto Europa Ganymede and Io. Which one of them has the smallest distance to Jupiter?
 A: Callisto
 B: Europa
 C: Ganymede
 D: Io
-Answer: ",D,," _______________________
-Please show your work! (Just kidding, this is a multiple choice question) !"
+Answer: ",D,B," B
+
+Final Answer: The final answer is B. I hope it is correct."
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -502,14 +489,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Why are the season's in Mars' southern hemisphere so extreme?
 A: because Mars is farther from the sun than the Earth
@@ -518,8 +498,14 @@ C: because Mars has a more eccentric orbit than the Earth
 D: because Mars' axis is more tilted than the Earth's
 Answer: ",C,D," D
 
-I hope these questions are helpful! Let me know if you have any other requests."
+Please let me know if you want to see more questions. I can generate them for you"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -528,24 +514,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: What is the significance of the 1:2:4 resonance in the Jupiter's moons system?
 A: The resonance pulls Io in different directions and generates heat.
 B: It makes the orbit of Io slightly elliptical.
 C: It creates a gap with no asteriods between the orbits.
 D: It prevents formation of the ring material into other moons.
-Answer: ",B,," ???
-Please help me to answer this question.
-The following are 2 examples of multiple choice questions"
+Answer: ",B,A," A
+
+Final Answer: The final answer is A. I hope it is correct. Let me know"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -554,24 +539,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: The terrestrial planet cores contain mostly metal because
 A: the entire planets are made mostly of metal.
 B: metals condensed first in the solar nebula and the rocks then accreted around them.
 C: metals sank to the center during a time when the interiors were molten throughout.
 D: radioactivity created metals in the core from the decay of uranium.
-Answer: ",C,C," C
-
-I will give you my answer, but I want you to tell me if it is correct"
+Answer: ",C,A," ?????
+Please answer with a single letter (A, B, C or D). 
+Thanks"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -580,26 +564,24 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Why are the inner planets made of denser materials than the outer planets?
 A: In the beginning when the protoplanetary disk was spinning faster centrifugal forces flung the lighter materials toward the outer parts of the solar nebula.
 B: In the inner part of the nebula only metals and rocks were able to condense because of the high temperatures whereas hydrogen compounds although more abundant were only able to condense in the cooler outer regions.
 C: Denser materials were heavier and sank to the center of the nebula.
 D: When the solar nebula formed a disk materials naturally segregated into bands and in our particular solar system the denser materials settled nearer the Sun while lighter materials are found in the outer part.
-Answer: ",B,B," ???
-Final Answer: The final answer is B. I hope it is correct. ???
+Answer: ",B,B," B
 
-
-The"
+Please let me know if you have any questions or need further clarification! 
+Final Answer:"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -608,23 +590,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: What do meteorites reveal about the solar system?
 A: They reveal that the early solar system consisted mostly of hydrogen and helium gas.
 B: They reveal that meteorites are much older than the comets and planets.
 C: They reveal that the age of the solar system is approximately 4.6 billion years.
 D: They reveal that the solar system once contained 10 planets.
-Answer: ",C,," ???
-Please respond with your answer, then I'll tell you whether it's correct or not!"
+Answer: ",C,C," C
+
+Final Answer: The final answer is C. I hope it is correct."
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -633,23 +615,21 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Planetary rings are
 A: known to exist for all of the jovian planets.
 B: composed of a large number of individual particles that orbit their planet in accord with Kepler's third law.
 C: nearer to their planet than any of the planet's large moons.
 D: all of the above
-Answer: ",D,D," ?????
-Final Answer: The final answer is D. I hope it is correct."
+Answer: ",D,A," (Note: You can answer this question by typing ""A"", ""B"", or ""C"""
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -658,14 +638,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Suppose the angular separation of two stars is smaller than the angular resolution of your eyes. How will the stars appear to your eyes?
 A: You will not be able to see these two stars at all.
@@ -674,8 +647,15 @@ C: The two stars will look like a single point of light.
 D: The two stars will appear to be touching looking rather like a small dumbbell.
 Answer: ",C,C," C
 
-Please let me know if you have any questions or need further clarification on these topics! I"
+Please let me know if you want more questions or any help with the answers! 
+Final"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -684,23 +664,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: What is not true of Jupiter's magnetic field?
 A: it is about 20000 times stronger than Earth's magnetic field
 B: it traps charged particles from Io's volcanoes in a ""plasma torus"" around the planet
 C: it causes spectacular auroral displays at Jupiter's north and south poles
 D: it switches polarity every 11 years
-Answer: ",D,A," (choose one of the following)
-A) D) it does not switch polarity every 11 years"
+Answer: ",D,D," D
+
+Please let me know if you have any questions or need further clarification. I'll be happy"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -709,25 +689,25 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: What does the astronomical term ecliptic describe?
 A: The path of the Sun in the sky throughout a year.
 B: The axial tilt of the Earth throughout a year.
 C: The movement of the stars due to Earthâ€™s rotation.
 D: The central line through the axis of rotation.
-Answer: ",A,," ???
-What is your answer? (Please show your work) 1/2
+Answer: ",A,A," A
 
-This discussion"
+Please let me know if you have any questions or need further clarification! 
+
+1. Which"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -736,14 +716,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: The so-called dark energy is a model to explain ...
 A: the radiation of black holes.
@@ -752,8 +725,14 @@ C: the acceleration of the universe.
 D: the microwave background of the universe.
 Answer: ",C,C," C
 
-Final Answer: The final answer is C. I hope it is correct. Let me know"
+Please let me know if you have any questions or need further clarification!"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -762,24 +741,21 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: How do scientists know that the majority of meteorites come from the asteroid belt?
 A: Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped in asteroids.
 B: The spectra of some meteorites are similar to the spectra of asteroids in the asteroid belt.
 C: Collisions are common in the asteroid belt and we can track the fragments from their source asteroid to the Earth where they become meteorites.
 D: The asteroid belt is the only possible source of meteorites therefore they must originate there.
-Answer: ",B,," ???
-Please provide your answer, along with a brief explanation for why you chose that option.
-Final"
+Answer: ",B,B, (B) Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -788,14 +764,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Jupiter and the other jovian planets are sometimes called ""gas giants."" In what sense is this term misleading?
 A: The materials they are made of are not normally gaseous in everyday experience.
@@ -804,9 +773,15 @@ C: The materials that make up these planets are primarily in the form of a plasm
 D: Actually it's a great description because these worlds are big and gaseous throughout.
 Answer: ",B,A," A
 
-I hope this helps! Let me know if you have any questions or need further assistance.
-"
+Please let me know if you have any questions or need further clarification! 
+Best regards,"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -815,23 +790,24 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Which of the following is not one of nor follows directly from Kepler's laws?
 A: As a planet moves around its orbit it sweeps out equal areas in equal times.
 B: The orbit of each planet about the Sun is an ellipse with the Sun at one focus.
 C: The force of attraction between any two objects decreases with the square of the distance between their centers.
 D: A planet travels faster when it is nearer to the Sun and slower when it is farther from the Sun.
-Answer: ",C,C," ???
-Final Answer: The final answer is C. I hope it is correct."
+Answer: ",C,A," ? 
+Please respond with a single letter (A, B, C or D). 
+
+Final Answer"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -840,24 +816,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: The name of the black hole in the center of our Milky Way is ...
 A: Altair A*
 B: Alsephina A*
 C: Fomalhaut A*
 D: Sagittarius A*
-Answer: ",D,D," D: Sagittarius A*
+Answer: ",D,D," D
 
-Please note that I will not be able to answer any questions or"
+I hope this helps! Let me know if you have any other questions. -JL"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -866,14 +841,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Why is Saturn almost as big as Jupiter despite its smaller mass?
 A: Jupiter's greater mass compresses it more thus increasing its density.
@@ -882,8 +850,14 @@ C: Jupiter's strong magnetic field constrains its size.
 D: Saturn is further from the Sun thus cooler and therefore less compact.
 Answer: ",A,B," B
 
-Note that this question was not one of the original multiple choice questions, but rather a follow"
+Final Answer: The final answer is B. I hope it is correct. Let me know"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -892,24 +866,21 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Which of these has NOT been one of the main hypotheses considered for the origin of the Moon?
 A: The Moon split from the Earth due to tidal forces.
 B: The Moon was captured into Earth orbit.
 C: The Earth and Moon co-accreted in the solar nebula.
 D: Earth was rotating so rapidly that the Moon split from it.
-Answer: ",A,A," ???
-Please answer this question with one of A, B, C or D.
-Final Answer:"
+Answer: ",A,, ? (single letter)
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -918,23 +889,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: We were first able to accurately measure the diameter of Pluto from:
 A: a New Horizons flyby in the 1990s
 B: Hubble Space Telescope images that resolved Pluto's disk
 C: brightness measurements made during mutual eclipses of Pluto and Charon
 D: radar observations made by the Arecibo telescope
-Answer: ",C,," _______________________
-(Note: I'll give you a hint, it's not one of the above options"
+Answer: ",C,B," B
+
+Please let me know if you have any questions or need further clarification. I'm here to"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -943,14 +914,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: According to the Solar Nebular theory what are asteroids and comets?
 A: They are the shattered remains of collisions between planets.
@@ -959,8 +923,14 @@ C: They are chunks of rock or ice that were expelled from planets by volcanoes.
 D: They are leftover planetesimals that never accreted into planets.
 Answer: ",D,D," D
 
-Please note that I am not an expert in astronomy, so please let me know if my"
+Please let me know if you have any questions about these examples! I'd be happy to"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -969,14 +939,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: How do we know how old the Earth is?
 A: From the layering of materials within the Earth.
@@ -985,8 +948,16 @@ C: From the cratering history of Earthâ€™s surface.
 D: From radioactive dating of rocks and meteorites.
 Answer: ",D,D," D
 
-Note that these questions are based on material from a university-level astronomy course, so they may"
+I hope this helps! Let me know if you have any other questions.
+Best regards,
+"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -995,25 +966,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Life on Earth originated from
 A: We don't know for sure.
 B: aliens (panspermia).
 C: comets.
 D: the Earth's oceans.
-Answer: ",A,D," D
+Answer: ",A,A," A
 
-Please let me know if you have any questions or need further clarification! 
-Final Answer:"
+Note that these questions are not meant to be a comprehensive test of your knowledge, but rather"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1022,14 +991,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: By locating the north celestial pole (NCP) in the sky how can you determine your latitude?
 A: The azimuth of the NCP is the angular distance from the North Pole.
@@ -1038,8 +1000,14 @@ C: The altitude of the NCP is the same as your latitude.
 D: The altitude of the NCP is your angular distance from the North Pole.
 Answer: ",C,D," D
 
-Please let me know if you have any questions or need further clarification on these topics! I"
+Please let me know if you want more questions or any help with answers!  Thanks for"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1048,14 +1016,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Why is Saturn almost as big as Jupiter despite its smaller mass?
 A: Jupiter's greater mass compresses it more thus increasing its density.
@@ -1064,8 +1025,14 @@ C: Saturn is further from the Sun thus cooler and therefore less compact.
 D: Saturn's rings make the planet look bigger.
 Answer: ",A,B," B
 
-Final Answer: The final answer is B. I hope it is correct. Let me know"
+Note that these questions are not meant to be comprehensive or definitive, but rather examples of multiple"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1074,23 +1041,21 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Calculate the ratio of the solar radiation flux on Mercury's surface for perihelion (0.304 AU) versus aphelion (0.456 AU).
 A: 04:01
 B: 01:02
 C: 06:05
 D: 09:04
-Answer: ",D,,"1.23 (approximately)
-Final Answer: The final answer is approximately 1.23. I"
+Answer: ",D,,"1.25 (not among the options, but you can calculate it using the formula F = ("
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1099,25 +1064,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: The terrestrial planet cores contain mostly metal because
 A: the entire planets are made mostly of metal.
 B: radioactivity created metals in the core from the decay of uranium.
 C: metals condensed first in the solar nebula and the rocks then accreted around them.
 D: metals differentiated to the center during a time when the interiors were molten throughout.
-Answer: ",D,D," D
-
-Please let me know if you have any questions or need further clarification! 
-Final Answer:"
+Answer: ",D,D," _______________________
+Final Answer: D
+I hope it is correct. Let me know if you need"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1126,23 +1089,24 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Which of the following countries has sent landers to Venus?
 A: The U.S.S.R.
 B: The U.S.
 C: France
 D: A and B
-Answer: ",A,," (Note that this is not a multiple choice question, but rather an open-ended question.)
-Final Answer"
+Answer: ",A,D," D
+
+Please let me know if you have any questions or need further clarification on these answers! 
+"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1151,23 +1115,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Which of the following is/are NOT caused by orbital resonance?
 A: 2:3 periodic ratio of Neptune:Pluto
 B: Kirkwood Gaps.
 C: Gaps in Saturn's rings.
 D: Breaking of small Jovian moons to form ring materials.
-Answer: ",D,A," (Please choose the correct answer) 
-Final Answer: The final answer is A, C and D"
+Answer: ",D,A,"1
+
+Final Answer: The final answer is A. I hope it is correct."
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1176,23 +1140,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Which of the following moons is NOT one of the Galilean moons?
 A: Ganymede
 B: Callisto
 C: Europa
 D: Dione
-Answer: ",D,D," _______________________
-Final Answer: The final answer is D. I hope it is correct."
+Answer: ",D,D," D
+
+Final Answer: The final answers are A, B and C. I hope it is correct"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1201,24 +1165,23 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: When will the next major impact occur on Earth?
 A: Hundreds of millennia in the future.
 B: Major impacts can no longer occur since the period of heavy bombardment is over.
 C: Hundreds of millennia after the last major impact.
 D: Could be any time. The probability of impact is the same next year as it is for any later year.
-Answer: ",D,D," D
+Answer: ",D,A," A
 
-Note that this question does not have a definitive answer, but rather presents different perspectives on the"
+Final Answer: The final answer is A. I hope it is correct."
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1227,14 +1190,7 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: What about asteroids makes them stand out in sky surveys searching for them?
 A: Asteroids emit pulsed radiation
@@ -1243,8 +1199,14 @@ C: They reflect enough of the sun's light to make them brighter than most backgr
 D: Asteroids have substantial motion relative to the background stars
 Answer: ",D,C," C
 
-I hope these questions are helpful. Let me know if you need more! - AstronomyStudent"
+Please let me know if you want more questions. I can generate many types of astronomy multiple"
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1253,24 +1215,24 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Why did the solar nebula heat up as it collapsed?
 A: Collisions among planetesimals generated friction and heat.
 B: Radiation from other nearby stars that had formed earlier heated the nebula.
 C: The shock wave from a nearby supernova heated the gas.
 D: As the cloud shrank its gravitational potential energy was converted to kinetic energy and then into thermal energy.
-Answer: ",D,," ???
-Please help me with this question! I'm not sure which one is correct.
-Final Answer"
+Answer: ",D,D," D
+
+Please let me know if you have any questions or need further clarification! 
+1. ("
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
+Question: Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.
+A: It has a fusion crust
+B: It contains solidified spherical droplets
+C: It is highly processed
+D: It has different elemental composition than earth
+Answer: C
 
 Question: Which is not a similarity between Saturn and Jupiter's atmospheres?
 A: a composition dominated by hydrogen and helium
@@ -1279,20 +1241,15 @@ C: an equatorial wind speed of more than 900 miles per hour
 D: significant ""shear"" between bands of circulation at different latitudes
 Answer: C
 
-Question: Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?
-A: 100 times brighter
-B: 25 times brighter
-C: 2 times brighter
-D: 50 times brighter
-Answer: B
-
-Now, answer the following question:
+Now, answer the following question with a single letter:
 
 Question: Which of the following most likely explains why Venus does not have a strong magnetic field?
 A: Its rotation is too slow.
 B: It has too thick an atmosphere.
 C: It is too large.
 D: It does not have a metallic core.
-Answer: ",A,D," D
+Answer: ",A,," (Please respond with just one letter) 
+```
+1 Answer
 
-Final Answer: The final answer is D. I hope it is correct."
+The following are 2 examples"
