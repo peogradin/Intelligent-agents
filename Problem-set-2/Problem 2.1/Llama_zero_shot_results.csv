@@ -206,7 +206,7 @@ A: the radiation of black holes.
 B: the mass distribution of galaxies.
 C: the acceleration of the universe.
 D: the microwave background of the universe.
-Answer: ",C,,"3
+Answer: ",C,C,"3
 Explanation: Dark energy refers to an unknown form of energy that is thought to be spread throughout the universe and is responsible for its accelerating expansion. It was first proposed as a solution to the ""mismatch"" between the observed distances and velocities of"
 "Question: How do scientists know that the majority of meteorites come from the asteroid belt?
 A: Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped in asteroids.
@@ -260,7 +260,7 @@ A: a New Horizons flyby in the 1990s
 B: Hubble Space Telescope images that resolved Pluto's disk
 C: brightness measurements made during mutual eclipses of Pluto and Charon
 D: radar observations made by the Arecibo telescope
-Answer: ",C,,"1989-1991 (Hubble Space Telescope) - The first accurate measurement was done using the Hubble Space Telescope in 1989. Prior to that, estimates were based on brightness measurements or theoretical models.
+Answer: ",C,B,"1989-1991 (Hubble Space Telescope) - The first accurate measurement was done using the Hubble Space Telescope in 1989. Prior to that, estimates were based on brightness measurements or theoretical models.
 Reference:
 * ""The diameter of"
 "Question: According to the Solar Nebular theory what are asteroids and comets?
@@ -337,7 +337,7 @@ A: Hundreds of millennia in the future.
 B: Major impacts can no longer occur since the period of heavy bombardment is over.
 C: Hundreds of millennia after the last major impact.
 D: Could be any time. The probability of impact is the same next year as it is for any later year.
-Answer: ",D,,"1A: Hundreds of millennia in the future.
+Answer: ",D,A,"1A: Hundreds of millennia in the future.
 Explanation: According to NASA, there are no known asteroids or comets that pose a significant threat to Earth in the near future (next few hundred years). However, scientists have identified several large and potentially"
 "Question: What about asteroids makes them stand out in sky surveys searching for them?
 A: Asteroids emit pulsed radiation

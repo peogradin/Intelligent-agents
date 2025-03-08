@@ -25,7 +25,7 @@ A: it was stripped away by the magnetic field when it rapidly decreased in stren
 B: it was broken into hydrogen and oxygen by ultraviolet light and the hydrogen was lost through thermal escape
 C: it was consumed by a civilization of thirsty Martians
 D: it was vaporized during a period of intense volcanism and was lost to space through thermal escape
-Answer: ",B,," BExplanation: Ultraviolet light from the Sun can break water molecules into hydrogen (H) and oxygen (O). The lighter gas, Hydrogen, is then more likely to be stripped away by solar"
+Answer: ",B,B," BExplanation: Ultraviolet light from the Sun can break water molecules into hydrogen (H) and oxygen (O). The lighter gas, Hydrogen, is then more likely to be stripped away by solar"
 "Question: Most rocks on the Moon's surface are older than those on the Earth's surface. The best evidence for this is:
 A: Lunar rocks are composed of fragments pulverized by many impacts.
 B: Radioactive dating of lunar samples shows that they are older.
@@ -158,7 +158,7 @@ A: the entire planets are made mostly of metal.
 B: metals condensed first in the solar nebula and the rocks then accreted around them.
 C: metals sank to the center during a time when the interiors were molten throughout.
 D: radioactivity created metals in the core from the decay of uranium.
-Answer: ",C,," CExplanation: The terrestrial planet cores contain mostly metal because, early on after their formation, these planets' interiors were likely partially or completely molten due to high temperatures and pressures during accretion processes. This state"
+Answer: ",C,C," CExplanation: The terrestrial planet cores contain mostly metal because, early on after their formation, these planets' interiors were likely partially or completely molten due to high temperatures and pressures during accretion processes. This state"
 "Question: Why are the inner planets made of denser materials than the outer planets?
 A: In the beginning when the protoplanetary disk was spinning faster centrifugal forces flung the lighter materials toward the outer parts of the solar nebula.
 B: In the inner part of the nebula only metals and rocks were able to condense because of the high temperatures whereas hydrogen compounds although more abundant were only able to condense in the cooler outer regions.

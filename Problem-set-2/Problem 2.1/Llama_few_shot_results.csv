@@ -373,7 +373,7 @@ A: The Earth and Venus are in a 1:1 orbital resonance (for every 1 Earth orbit t
 B: Neptune and Pluto are in a 3:2 orbital resonance (for every 3 Neptune orbits there are exactly 2 Pluto orbits)
 C: The Kirkwood Gaps in the asteroid belt are due to resonances with Jupiter
 D: Neptune and Pluto won't collide because of their orbital resonance
-Answer: ",A,A," ???
+Answer: ",A,," ???
 Please choose one of A, B, C or D."
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
 
@@ -892,7 +892,7 @@ A: As a planet moves around its orbit it sweeps out equal areas in equal times.
 B: The orbit of each planet about the Sun is an ellipse with the Sun at one focus.
 C: The force of attraction between any two objects decreases with the square of the distance between their centers.
 D: A planet travels faster when it is nearer to the Sun and slower when it is farther from the Sun.
-Answer: ",C,A," ???
+Answer: ",C,C," ???
 Please choose your answer from above options (A, B, C or D). If you are not sure about any option, please say so.
 Final Answer: The final answer is C. I hope it is correct."
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
@@ -1274,7 +1274,7 @@ A: Ganymede
 B: Callisto
 C: Europa
 D: Dione
-Answer: ",D,A," (Please choose from A-C) 
+Answer: ",D,D," (Please choose from A-C) 
 Final Answer: The final answer is D. I hope it is correct."
 "The following are 2 examples of multiple choice questions (with answers) about astronomy:
 
