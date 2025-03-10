@@ -49,6 +49,13 @@ namespace PerceptronClassifierApplication
                     {
                         string line = dataReader.ReadLine();
                         List<string> lineSplit = line.Split(new char[] { '\t' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+
+                        if (lineSplit.Count != 2)
+                        {
+                            Console.WriteLine($"Skipping invalid line: {line}");
+                            continue; 
+                        }
+
                         TextClassificationDataItem item = new TextClassificationDataItem();
                         item.Text = lineSplit[0].ToLower();
                         item.ClassLabel = int.Parse(lineSplit[1]);  
@@ -253,6 +260,11 @@ namespace PerceptronClassifierApplication
                     double validationAccuracy = evaluator.Evaluate(validationSet);
                     double testAccuracy = evaluator.Evaluate(testSet);
                     ShowProgressSafe($"Test accuracy: {testAccuracy:F4},\t Validation accuracy: {validationAccuracy:F4},\t Training accuracy: {trainingAccuracy:F4}");
+
+                    var (accuracy, precision, recall, f1) = evaluator.EvaluateExtended(testSet);
+                    ShowProgressSafe("");
+                    ShowProgressSafe("Complete Test Set Evaluation:");
+                    ShowProgressSafe($"Test accuracy: {accuracy:F4},\t Precision: {precision:F4},\t Recall: {recall:F4},\t F1: {f1:F4}");
 
                     var (topWords, bottomWords) = classifier.GetTopAndBottomWords(isSaveData, 10);
 
