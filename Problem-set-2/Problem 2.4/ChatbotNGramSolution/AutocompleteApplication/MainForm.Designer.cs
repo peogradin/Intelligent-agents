@@ -33,16 +33,21 @@ namespace AutocompleteApplication
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadTrainingDataSetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadValidationDataSetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadTestDataSetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tokenizeButton = new System.Windows.Forms.ToolStripButton();
             this.generateNGramsButton = new System.Windows.Forms.ToolStripButton();
-            this.startAutocompletionButton = new System.Windows.Forms.ToolStripButton();
-            this.sentenceTextBox = new System.Windows.Forms.TextBox();
+            this.selectModeToolStripDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
+            this.defaultModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lowTempModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.generateSentenceButton = new System.Windows.Forms.ToolStripButton();
             this.nGramsListBox = new System.Windows.Forms.ListBox();
-            this.suggestionListBox = new System.Windows.Forms.ListBox();
-            this.loadValidationDataSetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loadTestDataSetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.computePerplexityToolStripDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
+            this.perplexityTrainingDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.perplexityValidationDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.perplexityTestDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -77,6 +82,22 @@ namespace AutocompleteApplication
             this.loadTrainingDataSetToolStripMenuItem.Text = "Load training data set";
             this.loadTrainingDataSetToolStripMenuItem.Click += new System.EventHandler(this.loadTrainingDataSetToolStripMenuItem_Click);
             // 
+            // loadValidationDataSetToolStripMenuItem
+            // 
+            this.loadValidationDataSetToolStripMenuItem.Enabled = false;
+            this.loadValidationDataSetToolStripMenuItem.Name = "loadValidationDataSetToolStripMenuItem";
+            this.loadValidationDataSetToolStripMenuItem.Size = new System.Drawing.Size(303, 34);
+            this.loadValidationDataSetToolStripMenuItem.Text = "Load validation data set";
+            this.loadValidationDataSetToolStripMenuItem.Click += new System.EventHandler(this.loadValidationDataSetToolStripMenuItem_Click);
+            // 
+            // loadTestDataSetToolStripMenuItem
+            // 
+            this.loadTestDataSetToolStripMenuItem.Enabled = false;
+            this.loadTestDataSetToolStripMenuItem.Name = "loadTestDataSetToolStripMenuItem";
+            this.loadTestDataSetToolStripMenuItem.Size = new System.Drawing.Size(303, 34);
+            this.loadTestDataSetToolStripMenuItem.Text = "Load test data set";
+            this.loadTestDataSetToolStripMenuItem.Click += new System.EventHandler(this.loadTestDataSetToolStripMenuItem_Click);
+            // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
@@ -90,7 +111,9 @@ namespace AutocompleteApplication
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tokenizeButton,
             this.generateNGramsButton,
-            this.startAutocompletionButton});
+            this.computePerplexityToolStripDropDownButton,
+            this.selectModeToolStripDropDownButton,
+            this.generateSentenceButton});
             this.toolStrip1.Location = new System.Drawing.Point(0, 33);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
@@ -120,28 +143,46 @@ namespace AutocompleteApplication
             this.generateNGramsButton.Text = "Generate NGrams";
             this.generateNGramsButton.Click += new System.EventHandler(this.generateNGramsButton_Click);
             // 
-            // startAutocompletionButton
+            // selectModeToolStripDropDownButton
             // 
-            this.startAutocompletionButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.startAutocompletionButton.Enabled = false;
-            this.startAutocompletionButton.Image = ((System.Drawing.Image)(resources.GetObject("startAutocompletionButton.Image")));
-            this.startAutocompletionButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.startAutocompletionButton.Name = "startAutocompletionButton";
-            this.startAutocompletionButton.Size = new System.Drawing.Size(186, 29);
-            this.startAutocompletionButton.Text = "Start Autocompletion";
-            this.startAutocompletionButton.Click += new System.EventHandler(this.startAutocompletionButton_Click);
+            this.selectModeToolStripDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.selectModeToolStripDropDownButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.defaultModeToolStripMenuItem,
+            this.lowTempModeToolStripMenuItem});
+            this.selectModeToolStripDropDownButton.Enabled = false;
+            this.selectModeToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("selectModeToolStripDropDownButton.Image")));
+            this.selectModeToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.selectModeToolStripDropDownButton.Name = "selectModeToolStripDropDownButton";
+            this.selectModeToolStripDropDownButton.Size = new System.Drawing.Size(194, 29);
+            this.selectModeToolStripDropDownButton.Text = "Select running mode";
             // 
-            // sentenceTextBox
+            // defaultModeToolStripMenuItem
             // 
-            this.sentenceTextBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.sentenceTextBox.Enabled = false;
-            this.sentenceTextBox.Location = new System.Drawing.Point(0, 67);
-            this.sentenceTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.sentenceTextBox.Name = "sentenceTextBox";
-            this.sentenceTextBox.Size = new System.Drawing.Size(1200, 26);
-            this.sentenceTextBox.TabIndex = 2;
-            this.sentenceTextBox.TextChanged += new System.EventHandler(this.sentenceTextBox_TextChanged);
-            this.sentenceTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.sentenceTextBox_KeyDown);
+            this.defaultModeToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.defaultModeToolStripMenuItem.Enabled = false;
+            this.defaultModeToolStripMenuItem.Name = "defaultModeToolStripMenuItem";
+            this.defaultModeToolStripMenuItem.Size = new System.Drawing.Size(302, 34);
+            this.defaultModeToolStripMenuItem.Text = "Default mode";
+            this.defaultModeToolStripMenuItem.Click += new System.EventHandler(this.defaultModeToolStripMenuItem_Click);
+            // 
+            // lowTempModeToolStripMenuItem
+            // 
+            this.lowTempModeToolStripMenuItem.Name = "lowTempModeToolStripMenuItem";
+            this.lowTempModeToolStripMenuItem.Size = new System.Drawing.Size(302, 34);
+            this.lowTempModeToolStripMenuItem.Text = "Low-temperature mode";
+            this.lowTempModeToolStripMenuItem.Click += new System.EventHandler(this.lowTempModeToolStripMenuItem_Click);
+            // 
+            // generateSentenceButton
+            // 
+            this.generateSentenceButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.generateSentenceButton.Enabled = false;
+            this.generateSentenceButton.Image = ((System.Drawing.Image)(resources.GetObject("generateSentenceButton.Image")));
+            this.generateSentenceButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.generateSentenceButton.Name = "generateSentenceButton";
+            this.generateSentenceButton.Size = new System.Drawing.Size(162, 29);
+            this.generateSentenceButton.Text = "Generate Sentence";
+            this.generateSentenceButton.ToolTipText = "Generate Sentence";
+            this.generateSentenceButton.Click += new System.EventHandler(this.generateSentenceButton_Click);
             // 
             // nGramsListBox
             // 
@@ -152,50 +193,55 @@ namespace AutocompleteApplication
             this.nGramsListBox.ForeColor = System.Drawing.Color.Lime;
             this.nGramsListBox.FormattingEnabled = true;
             this.nGramsListBox.ItemHeight = 17;
-            this.nGramsListBox.Location = new System.Drawing.Point(0, 93);
+            this.nGramsListBox.Location = new System.Drawing.Point(0, 67);
             this.nGramsListBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.nGramsListBox.Name = "nGramsListBox";
-            this.nGramsListBox.Size = new System.Drawing.Size(1200, 599);
+            this.nGramsListBox.Size = new System.Drawing.Size(1200, 625);
             this.nGramsListBox.TabIndex = 6;
             // 
-            // suggestionListBox
+            // computePerplexityToolStripDropDownButton
             // 
-            this.suggestionListBox.ForeColor = System.Drawing.Color.Black;
-            this.suggestionListBox.FormattingEnabled = true;
-            this.suggestionListBox.ItemHeight = 20;
-            this.suggestionListBox.Location = new System.Drawing.Point(430, 95);
-            this.suggestionListBox.Margin = new System.Windows.Forms.Padding(2);
-            this.suggestionListBox.Name = "suggestionListBox";
-            this.suggestionListBox.Size = new System.Drawing.Size(243, 344);
-            this.suggestionListBox.TabIndex = 7;
-            this.suggestionListBox.TabStop = false;
-            this.suggestionListBox.Visible = false;
-            this.suggestionListBox.SelectedIndexChanged += new System.EventHandler(this.suggestionListBox_SelectedIndexChanged);
+            this.computePerplexityToolStripDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.computePerplexityToolStripDropDownButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.perplexityTrainingDataToolStripMenuItem,
+            this.perplexityValidationDataToolStripMenuItem,
+            this.perplexityTestDataToolStripMenuItem});
+            this.computePerplexityToolStripDropDownButton.Enabled = false;
+            this.computePerplexityToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("computePerplexityToolStripDropDownButton.Image")));
+            this.computePerplexityToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.computePerplexityToolStripDropDownButton.Name = "computePerplexityToolStripDropDownButton";
+            this.computePerplexityToolStripDropDownButton.Size = new System.Drawing.Size(184, 29);
+            this.computePerplexityToolStripDropDownButton.Text = "Compute Perplexity";
             // 
-            // loadValidationDataSetToolStripMenuItem
+            // perplexityTrainingDataToolStripMenuItem
             // 
-            this.loadValidationDataSetToolStripMenuItem.Name = "loadValidationDataSetToolStripMenuItem";
-            this.loadValidationDataSetToolStripMenuItem.Size = new System.Drawing.Size(303, 34);
-            this.loadValidationDataSetToolStripMenuItem.Text = "Load validation data set";
-            this.loadValidationDataSetToolStripMenuItem.Enabled = false;
-            this.loadValidationDataSetToolStripMenuItem.Click += new System.EventHandler(this.loadValidationDataSetToolStripMenuItem_Click);
+            this.perplexityTrainingDataToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.perplexityTrainingDataToolStripMenuItem.Name = "perplexityTrainingDataToolStripMenuItem";
+            this.perplexityTrainingDataToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.perplexityTrainingDataToolStripMenuItem.Text = "Training data set";
+            this.perplexityTrainingDataToolStripMenuItem.Click += new System.EventHandler(this.perplexityTrainingDataToolStripMenuItem_Click);
             // 
-            // loadTestDataSetToolStripMenuItem
+            // perplexityValidationDataToolStripMenuItem
             // 
-            this.loadTestDataSetToolStripMenuItem.Name = "loadTestDataSetToolStripMenuItem";
-            this.loadTestDataSetToolStripMenuItem.Size = new System.Drawing.Size(303, 34);
-            this.loadTestDataSetToolStripMenuItem.Text = "Load test data set";
-            this.loadTestDataSetToolStripMenuItem.Enabled = false;
-            this.loadTestDataSetToolStripMenuItem.Click += new System.EventHandler(this.loadTestDataSetToolStripMenuItem_Click);
+            this.perplexityValidationDataToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.perplexityValidationDataToolStripMenuItem.Name = "perplexityValidationDataToolStripMenuItem";
+            this.perplexityValidationDataToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.perplexityValidationDataToolStripMenuItem.Text = "Validation data set";
+            this.perplexityValidationDataToolStripMenuItem.Click += new System.EventHandler(this.perplexityValidationDataToolStripMenuItem_Click);
+            // 
+            // perplexityTestDataToolStripMenuItem
+            // 
+            this.perplexityTestDataToolStripMenuItem.Name = "perplexityTestDataToolStripMenuItem";
+            this.perplexityTestDataToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.perplexityTestDataToolStripMenuItem.Text = "Test data set";
+            this.perplexityTestDataToolStripMenuItem.Click += new System.EventHandler(this.perplexityTestDataToolStripMenuItem_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
-            this.Controls.Add(this.suggestionListBox);
             this.Controls.Add(this.nGramsListBox);
-            this.Controls.Add(this.sentenceTextBox);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -220,13 +266,18 @@ namespace AutocompleteApplication
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton tokenizeButton;
-        private System.Windows.Forms.TextBox sentenceTextBox;
         private System.Windows.Forms.ListBox nGramsListBox;
         private System.Windows.Forms.ToolStripButton generateNGramsButton;
-        private System.Windows.Forms.ToolStripButton startAutocompletionButton;
-        private System.Windows.Forms.ListBox suggestionListBox;
+        private System.Windows.Forms.ToolStripButton generateSentenceButton;
         private System.Windows.Forms.ToolStripMenuItem loadValidationDataSetToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem loadTestDataSetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripDropDownButton selectModeToolStripDropDownButton;
+        private System.Windows.Forms.ToolStripMenuItem defaultModeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lowTempModeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripDropDownButton computePerplexityToolStripDropDownButton;
+        private System.Windows.Forms.ToolStripMenuItem perplexityTrainingDataToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem perplexityValidationDataToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem perplexityTestDataToolStripMenuItem;
     }
 }
 

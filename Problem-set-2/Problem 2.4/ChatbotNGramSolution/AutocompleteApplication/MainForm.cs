@@ -30,9 +30,9 @@ namespace AutocompleteApplication
         private Thread tokenizerThread;
         private Thread nGramThread;
         private NGramManager nGramManager = new NGramManager();
-        private Chatbot autoCompleter;
-        List<string> suggestions;
-
+        private Chatbot chatbot;
+        private bool lowTemperatureMode = false;
+        
         public MainForm()
         {
             InitializeComponent();
@@ -43,7 +43,7 @@ namespace AutocompleteApplication
             string text = null;
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+                openFileDialog.Filter = TEXT_FILE_FILTER;
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     text = File.ReadAllText(openFileDialog.FileName).ToLower();
@@ -130,7 +130,11 @@ namespace AutocompleteApplication
                 ShowTopBigrams(10);
                 ShowProgressSafe("");
                 ShowTopUnigrams(10);
-                Invoke(new Action(() => startAutocompletionButton.Enabled = true));
+                Invoke(new Action(() =>
+                {
+                    generateSentenceButton.Enabled = true;
+                    selectModeToolStripDropDownButton.Enabled = true;
+                }));
 
             });
 
@@ -138,85 +142,38 @@ namespace AutocompleteApplication
 
         }
 
-        private void startAutocompletionButton_Click(object sender, EventArgs e)
+
+        private void defaultModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            startAutocompletionButton.Enabled = false;
-            nGramsListBox.Items.Clear();
-            autoCompleter = new Chatbot(nGramManager);
-            sentenceTextBox.Enabled = true;
-            sentenceTextBox.Focus();
+            lowTemperatureMode = false;
+            defaultModeToolStripMenuItem.Enabled = false;
         }
 
-
-        private void sentenceTextBox_TextChanged(object sender, EventArgs e)
+        private void lowTempModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-            string inputText = sentenceTextBox.Text;
-            if (!inputText.EndsWith(" ") || autoCompleter == null)
-            {
-                suggestionListBox.Visible = false;
-                return;
-            }
-
-            //List<string> inputTokens = new Tokenizer().Tokenize(inputText);
-            //suggestions = autoCompleter.GetSuggestions(inputTokens);
-            suggestionListBox.Items.Clear();
-            suggestionListBox.Items.AddRange(suggestions.ToArray());
-
-            suggestionListBox.Visible = suggestions.Count > 0;
+            lowTemperatureMode = true;
+            lowTempModeToolStripMenuItem.Enabled = false;
         }
 
-        private void sentenceTextBox_KeyDown(object sender, KeyEventArgs e)
+        private void generateSentenceButton_Click(object sender, EventArgs e)
         {
-            Console.WriteLine($"Suggestions count: {suggestionListBox.Items.Count}");
-            if (e.KeyCode == Keys.Tab)
+            generateSentenceButton.Enabled = false;
+            if (chatbot == null)
             {
-                if (suggestionListBox.Items.Count > 0)
-                {
-                    e.SuppressKeyPress = true;
-                    e.Handled = true;
-
-                    string punctuation = ".,!?;:";
-
-                    string selectedWord = suggestionListBox.Items[0].ToString();
-
-                    if (punctuation.Contains(selectedWord))
-                    {
-                        sentenceTextBox.Text = sentenceTextBox.Text.TrimEnd() + selectedWord;
-                    }
-                    else
-                    {
-                        sentenceTextBox.Text = sentenceTextBox.Text.TrimEnd() + " " + selectedWord;
-                    }
-
-                    sentenceTextBox.SelectionStart = sentenceTextBox.Text.Length;
-                    suggestionListBox.Visible = false;
-                    sentenceTextBox.Focus();
-                }
+                chatbot = new Chatbot(nGramManager);
+                nGramsListBox.Items.Clear();
             }
-        }
 
-
-        private void suggestionListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (suggestionListBox.SelectedItem != null)
+            Task.Run(() =>
             {
-                string punctuation = ".,!?;:";
+                string generatedSentence = chatbot.GenerateSentence(lowTemperatureMode);
 
-                string selectedWord = suggestionListBox.SelectedItem.ToString();
-
-                if (punctuation.Contains(selectedWord))
+                Invoke(new Action(() =>
                 {
-                    sentenceTextBox.Text = sentenceTextBox.Text.TrimEnd() + selectedWord;
-                }
-                else
-                {
-                    sentenceTextBox.Text = sentenceTextBox.Text.TrimEnd() + " " + selectedWord;
-                }
-                sentenceTextBox.SelectionStart = sentenceTextBox.Text.Length;
-                suggestionListBox.Visible = false;
-                sentenceTextBox.Focus();
-            }
+                    ShowProgressSafe($"Generated Sentence: {generatedSentence}", true);
+                    generateSentenceButton.Enabled = true;
+                }));
+            });
         }
 
         private void ShowTopTrigrams(int amount)
@@ -302,18 +259,19 @@ namespace AutocompleteApplication
             }
         }
 
-        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        private void perplexityTrainingDataToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (keyData == Keys.Tab)
-            {
-                if (suggestionListBox.Visible && suggestionListBox.Items.Count > 0)
-                {
 
-                    this.sentenceTextBox_KeyDown(this, new KeyEventArgs(Keys.Tab));
-                    return true;
-                }
-            }
-            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
+        private void perplexityValidationDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void perplexityTestDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

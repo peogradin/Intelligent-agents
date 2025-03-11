@@ -49,7 +49,7 @@ namespace NLP
             }
 
             string lastWord = previousTokens[n - 1];
-            if (bigramDictionary.TryGetValue(lastWord, out var bigramList))
+            if (!string.IsNullOrEmpty(lastWord) && bigramDictionary.TryGetValue(lastWord, out var bigramList))
             {
                 double totalBigramProbability = bigramList.Sum(t => t.FrequencyPerMillionInstances);
                 foreach (var bigram in bigramList)
@@ -94,13 +94,19 @@ namespace NLP
             return probabilities;
         }
 
-        public string GenerateSentence(bool lowTemperatureMode = false)
+        public string GenerateSentence(bool lowTemperatureMode, int maxTokens = 100)
         {
             List<string> sentence = new List<string> { "<bos>" };
-            
-            while (true)
+            string nextWord;
+
+            for (int i = 0; i < maxTokens; i++)
             {
                 Dictionary<string, double> probabilities = JelinekMercerSmoothing(sentence);
+
+                if (probabilities == null || probabilities.Count == 0)
+                {
+                    break;
+                }
 
                 if (lowTemperatureMode)
                 {
@@ -108,15 +114,15 @@ namespace NLP
                     double sum = top10.Sum(p => p.Value);
 
                     Dictionary<string, double> normalizedProbabilities = top10.ToDictionary(p => p.Key, p => p.Value / sum);
-                    string nextToken = SampleFromDistribution(normalizedProbabilities);
-                    sentence.Add(nextToken);
+                    nextWord = SampleFromDistribution(normalizedProbabilities);
                 }
                 else
                 {
-                    string nextToken = SampleFromDistribution(probabilities);
-                    sentence.Add(nextToken);
+                    nextWord = SampleFromDistribution(probabilities);
                 }
-                if (sentence.Last() == "<eos>")
+                sentence.Add(nextWord);
+
+                if (nextWord == "<eos>")
                 {
                     break;
                 }

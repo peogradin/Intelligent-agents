@@ -21,7 +21,9 @@ namespace NLP.Tokenization
             foreach (string line in lines)
             {
 
-                List<string> tokens = line.Trim().Split(' ').ToList();
+                List<string> tokens = Regex.Split(line.Trim(), @"\s+")
+                                           .Where(t => !string.IsNullOrWhiteSpace(t))
+                                           .ToList();
 
                 if (tokens.Count > 0)
                 {
