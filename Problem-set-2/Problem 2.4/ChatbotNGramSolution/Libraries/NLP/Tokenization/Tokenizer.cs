@@ -10,8 +10,7 @@ namespace NLP.Tokenization
     public class Tokenizer
     {
 
-        public event Action<int> OnProgressUpdate;
-
+        
         public List<List<string>> Tokenize(string text)
         {
             List<List<string>> sentences = new List<List<string>>();

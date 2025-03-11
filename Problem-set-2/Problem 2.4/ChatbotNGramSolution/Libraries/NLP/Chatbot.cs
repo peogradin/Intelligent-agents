@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using NLP.NGrams;
+using static System.Math;
 
 namespace NLP
 {
@@ -11,13 +13,19 @@ namespace NLP
     {
         private readonly NGramManager nGramManager;
         private Random random;
-        public Chatbot(NGramManager manager)
+        private double alpha;
+        private double beta;
+        private double gamma;
+        public Chatbot(NGramManager manager, double alpha, double beta, double gamma)
         {
             this.nGramManager = manager;
             this.random = new Random(42);
+            this.alpha = alpha;
+            this.beta = beta;
+            this.gamma = gamma;
         }
 
-        public Dictionary<string, double> JelinekMercerSmoothing(List<string> previousTokens, double alpha = 0.25, double beta = 0.5, double gamma = 0.5)
+        public Dictionary<string, double> JelinekMercerSmoothing(List<string> previousTokens)
         {
             
             int n = previousTokens.Count;
@@ -27,10 +35,13 @@ namespace NLP
             Dictionary<string, List<NGram>> bigramDictionary = nGramManager.GetBigramDictionary();
             Dictionary<string, List<NGram>> trigramDictionary = nGramManager.GetTrigramDictionary();
 
-            if (n >= 2)
+            bool isTrigram = n >= 2;
+            bool isBigram = n >= 1;
+
+            if (isTrigram)
             {
                 string lastTwoWords = $"{previousTokens[n - 2]} {previousTokens[n - 1]}";
-                if (trigramDictionary.TryGetValue(lastTwoWords, out var trigramList))
+                if (!string.IsNullOrEmpty(lastTwoWords) && trigramDictionary.TryGetValue(lastTwoWords, out var trigramList))
                 {
                     double totalTrigramProbability = trigramList.Sum(t => t.FrequencyPerMillionInstances);
                     foreach (var trigram in trigramList)
@@ -46,6 +57,11 @@ namespace NLP
                         probabilities[nextWord] += alpha * trigramProbability;
                     }
                 }
+                else
+                {
+                    isTrigram = false;
+                }
+
             }
 
             string lastWord = previousTokens[n - 1];
@@ -60,18 +76,22 @@ namespace NLP
                     {
                         probabilities[nextWord] = 0.0;
                     }
-                    if (n == 1)
-                    {
-                        probabilities[nextWord] += (gamma) * bigramProbability;
-                    }
-                    else
+                    if (isTrigram)
                     {
                         probabilities[nextWord] += beta * bigramProbability;
                     }
+                    else
+                    {
+                        probabilities[nextWord] += gamma * bigramProbability;
+                    }
                 }
             }
-            
-            
+            else
+            {
+                isBigram = false;
+            }
+
+
             double totalUnigramProbability = unigramDictionary.Sum(t => t.Value[0].FrequencyPerMillionInstances);
             foreach (var unigram in unigramDictionary)
             {
@@ -81,13 +101,17 @@ namespace NLP
                 {
                     probabilities[nextWord] = 0.0;
                 }
-                if (n >= 2)
+                if (isTrigram)
                 {
                     probabilities[nextWord] += (1 - alpha - beta) * unigramProbability;
                 }
-                else
+                else if (isBigram)
                 {
                     probabilities[nextWord] += (1 - gamma) * unigramProbability;
+                }
+                else
+                {
+                    probabilities[nextWord] += unigramProbability;
                 }
             }
 
@@ -102,6 +126,14 @@ namespace NLP
             for (int i = 0; i < maxTokens; i++)
             {
                 Dictionary<string, double> probabilities = JelinekMercerSmoothing(sentence);
+
+                //double totalProbability = probabilities.Sum(p => p.Value); //Debug
+                //Console.WriteLine($"Total Probability (Before Sampling): {totalProbability:F6}"); //Debug
+                double totalProbability = probabilities.Sum(p => p.Value);
+                if (Math.Abs(totalProbability - 1.0) > 1e-5)
+                {
+                    Console.WriteLine($"Error: total probability is {totalProbability}, it should be = 1.0.");
+                }
 
                 if (probabilities == null || probabilities.Count == 0)
                 {
@@ -145,6 +177,64 @@ namespace NLP
             }
             return null;
         }
+
+        public double ComputePerplexity(List<List<string>> tokenizedDataSet, Action<int> onProgressUpdate = null)
+        {
+            double logProbabilitySum = 0.0;
+            int tokenCount = 0;
+            int processedSentences = 0;
+            int totalSentences = tokenizedDataSet.Count;
+
+            foreach (var sentence in tokenizedDataSet)
+            {
+                if (sentence.Count == 0) continue;
+                List<string> context = new List<string> { "<bos>" };
+
+                foreach (string token in sentence)
+                {
+                    if (token == "<bos>") continue;
+
+                    Dictionary<string, double> probabilities = JelinekMercerSmoothing(context);
+
+                    double totalProbability = probabilities.Sum(p => p.Value);
+                    if (Math.Abs(totalProbability - 1.0) > 1e-5)
+                    {
+                        Console.WriteLine($"Error: total probability is {totalProbability}, it should be = 1.0. ´Context = {string.Join(" ", context)}");
+                    }
+                    //else
+                    //{
+                    //    Console.WriteLine($"Total Probability: {totalProbability:F6}"); //Debug
+                    //}
+
+                    if (probabilities.TryGetValue(token, out double probability) && probability > 0)
+                    {
+                        logProbabilitySum += Math.Log(probability);
+                    }
+                    else
+                    {
+                        logProbabilitySum += Math.Log(1e-10);
+                        Console.WriteLine($"Error: couldn't find token {token} probability");
+                    }
+                    tokenCount++;
+                    if (context.Count == 2)
+                    {
+                        context.RemoveAt(0);
+                    }
+                    context.Add(token);
+                }
+
+                processedSentences++;
+                if (processedSentences % 100 == 0)
+                {
+                    onProgressUpdate?.Invoke((int)(processedSentences / (double)totalSentences * 100));
+                }
+            }
+
+            if (tokenCount == 0) return double.PositiveInfinity;
+            double perplexity = Math.Exp(-logProbabilitySum / tokenCount);
+            return perplexity;
+        }
+
     }
 }
 

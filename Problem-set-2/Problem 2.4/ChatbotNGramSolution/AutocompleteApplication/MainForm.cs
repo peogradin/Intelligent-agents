@@ -32,6 +32,9 @@ namespace AutocompleteApplication
         private NGramManager nGramManager = new NGramManager();
         private Chatbot chatbot;
         private bool lowTemperatureMode = false;
+        private double alpha = 0.3;
+        private double beta = 0.45;
+        private double gamma = 0.55;
         
         public MainForm()
         {
@@ -47,7 +50,7 @@ namespace AutocompleteApplication
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     text = File.ReadAllText(openFileDialog.FileName).ToLower();
-                    nGramsListBox.Items.Add($"Loaded {dataSetName}.");
+                    chatbotListBox.Items.Add($"Loaded {dataSetName}.");
                 }
             }
             return text;
@@ -86,11 +89,6 @@ namespace AutocompleteApplication
             ShowProgressSafe($"Tokenizing...");
             Tokenizer tokenizer = new Tokenizer();
 
-            tokenizer.OnProgressUpdate += (processedTokens) =>
-            {
-                ShowProgressSafe($"Processed {processedTokens} tokens");
-            };
-
             tokenizerThread = new Thread(() =>
             {
                 tokenizedTrainingData = tokenizer.Tokenize(trainingDataSetString);
@@ -125,15 +123,17 @@ namespace AutocompleteApplication
                 ShowProgressSafe("NGram generation complete", true);
                 ShowProgressSafe($"Total unigrams (unique tokens): {totalUnigrams}");
                 ShowProgressSafe("");
-                ShowTopTrigrams(10);
+                ShowTopTrigrams(5);
                 ShowProgressSafe("");
-                ShowTopBigrams(10);
+                ShowTopBigrams(5);
                 ShowProgressSafe("");
-                ShowTopUnigrams(10);
+                ShowTopUnigrams(5);
                 Invoke(new Action(() =>
                 {
                     generateSentenceButton.Enabled = true;
                     selectModeToolStripDropDownButton.Enabled = true;
+                    computePerplexityToolStripDropDownButton.Enabled = true;
+                    chatbot = new Chatbot(nGramManager, alpha, beta, gamma);
                 }));
 
             });
@@ -147,12 +147,15 @@ namespace AutocompleteApplication
         {
             lowTemperatureMode = false;
             defaultModeToolStripMenuItem.Enabled = false;
+            lowTempModeToolStripMenuItem.Enabled = true;
         }
 
         private void lowTempModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             lowTemperatureMode = true;
             lowTempModeToolStripMenuItem.Enabled = false;
+            defaultModeToolStripMenuItem.Enabled = true;
+            
         }
 
         private void generateSentenceButton_Click(object sender, EventArgs e)
@@ -160,8 +163,8 @@ namespace AutocompleteApplication
             generateSentenceButton.Enabled = false;
             if (chatbot == null)
             {
-                chatbot = new Chatbot(nGramManager);
-                nGramsListBox.Items.Clear();
+                chatbot = new Chatbot(nGramManager, alpha, beta, gamma);
+                chatbotListBox.Items.Clear();
             }
 
             Task.Run(() =>
@@ -175,6 +178,77 @@ namespace AutocompleteApplication
                 }));
             });
         }
+
+        private void perplexityTrainingDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            perplexityTrainingDataToolStripMenuItem.Enabled = false;
+
+            if (tokenizedTrainingData == null || tokenizedTrainingData.Count == 0)
+            {
+                ShowProgressSafe("Training data not tokenized or missing.");
+                perplexityTrainingDataToolStripMenuItem.Enabled = true;
+                return;
+            }
+            Task.Run(() =>
+            {
+
+                ShowProgressSafe("Computing perplexity (Training Data)...", true);
+                double perplexity = chatbot.ComputePerplexity(tokenizedTrainingData, progress =>
+                {
+                    ShowProgressSafe($"Computing training data perplexity: {progress}% completed", true);
+                });
+                ShowProgressSafe($"Perplexity (Training Data): {perplexity:F2}", true);
+
+                Invoke(new Action(() => perplexityTrainingDataToolStripMenuItem.Enabled = true));
+            });
+        }
+
+
+        private void perplexityValidationDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            perplexityValidationDataToolStripMenuItem.Enabled = false;
+            if (tokenizedValidationData == null || tokenizedValidationData.Count == 0)
+            {
+                ShowProgressSafe("Validation data not tokenized or missing.");
+                perplexityValidationDataToolStripMenuItem.Enabled = true;
+                return;
+            }
+            Task.Run(() =>
+            {
+                ShowProgressSafe("Computing perplexity (Validation Data)...", true);
+                double perplexity = chatbot.ComputePerplexity(tokenizedValidationData, progress =>
+                {
+                    ShowProgressSafe($"Computing validation data perplexity: {progress}% completed", true);
+                });
+                ShowProgressSafe($"Perplexity (Validation Data): {perplexity:F2}", true);
+
+                Invoke(new Action(() => perplexityValidationDataToolStripMenuItem.Enabled = true));
+            });
+        }
+
+        private void perplexityTestDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            perplexityTestDataToolStripMenuItem.Enabled = false;
+            if (tokenizedTestData == null || tokenizedTestData.Count == 0)
+            {
+                ShowProgressSafe("Test data not tokenized or missing.");
+                perplexityTestDataToolStripMenuItem.Enabled = true;
+                return;
+            }
+            Task.Run(() =>
+            {
+                ShowProgressSafe("Computing perplexity (Test Data)...", true);
+                double perplexity = chatbot.ComputePerplexity(tokenizedTestData, progress =>
+                {
+                    ShowProgressSafe($"Computing test data perplexity: {progress}% completed", true);
+                });
+
+                ShowProgressSafe($"Perplexity (Test Data): {perplexity:F2}", true);
+
+                Invoke(new Action(() => perplexityTestDataToolStripMenuItem.Enabled = true));
+            });
+        }
+
 
         private void ShowTopTrigrams(int amount)
         {
@@ -243,9 +317,9 @@ namespace AutocompleteApplication
                 {
                     if (clearBefore)
                     {
-                        nGramsListBox.Items.Clear();
+                        chatbotListBox.Items.Clear();
                     }
-                    nGramsListBox.Items.Add(message);
+                    chatbotListBox.Items.Add(message);
                 }));
 
             }
@@ -253,25 +327,11 @@ namespace AutocompleteApplication
             {
                 if (clearBefore)
                 {
-                    nGramsListBox.Items.Clear();
+                    chatbotListBox.Items.Clear();
                 }
-                nGramsListBox.Items.Add(message);
+                chatbotListBox.Items.Add(message);
             }
         }
 
-        private void perplexityTrainingDataToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void perplexityValidationDataToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void perplexityTestDataToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
