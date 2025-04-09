@@ -129,11 +129,11 @@ namespace NLP
 
                 //double totalProbability = probabilities.Sum(p => p.Value); //Debug
                 //Console.WriteLine($"Total Probability (Before Sampling): {totalProbability:F6}"); //Debug
-                double totalProbability = probabilities.Sum(p => p.Value);
-                if (Math.Abs(totalProbability - 1.0) > 1e-5)
-                {
-                    Console.WriteLine($"Error: total probability is {totalProbability}, it should be = 1.0.");
-                }
+                //double totalProbability = probabilities.Sum(p => p.Value);
+                //if (Math.Abs(totalProbability - 1.0) > 1e-5)
+                //{
+                //    Console.WriteLine($"Error: total probability is {totalProbability}, it should be = 1.0.");
+                //}
 
                 if (probabilities == null || probabilities.Count == 0)
                 {
@@ -196,11 +196,11 @@ namespace NLP
 
                     Dictionary<string, double> probabilities = JelinekMercerSmoothing(context);
 
-                    double totalProbability = probabilities.Sum(p => p.Value);
-                    if (Math.Abs(totalProbability - 1.0) > 1e-5)
-                    {
-                        Console.WriteLine($"Error: total probability is {totalProbability}, it should be = 1.0. ´Context = {string.Join(" ", context)}");
-                    }
+                    //double totalProbability = probabilities.Sum(p => p.Value);
+                    //if (Math.Abs(totalProbability - 1.0) > 1e-5)
+                    //{
+                    //    Console.WriteLine($"Error: total probability is {totalProbability}, it should be = 1.0. ´Context = {string.Join(" ", context)}");
+                    //}
                     //else
                     //{
                     //    Console.WriteLine($"Total Probability: {totalProbability:F6}"); //Debug
@@ -213,7 +213,7 @@ namespace NLP
                     else
                     {
                         logProbabilitySum += Math.Log(1e-10);
-                        Console.WriteLine($"Error: couldn't find token {token} probability");
+                        Console.WriteLine($"Error: couldn't find token {token}");
                     }
                     tokenCount++;
                     if (context.Count == 2)
@@ -224,7 +224,7 @@ namespace NLP
                 }
 
                 processedSentences++;
-                if (processedSentences % 100 == 0)
+                if (processedSentences % 500 == 0)
                 {
                     onProgressUpdate?.Invoke((int)(processedSentences / (double)totalSentences * 100));
                 }

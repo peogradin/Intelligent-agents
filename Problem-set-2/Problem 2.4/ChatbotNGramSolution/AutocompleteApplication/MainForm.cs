@@ -32,9 +32,9 @@ namespace AutocompleteApplication
         private NGramManager nGramManager = new NGramManager();
         private Chatbot chatbot;
         private bool lowTemperatureMode = false;
-        private double alpha = 0.25;
-        private double beta = 0.5;
-        private double gamma = 0.5;
+        private double alpha = 0.3;
+        private double beta = 0.45;
+        private double gamma = 0.55;
         
         public MainForm()
         {
